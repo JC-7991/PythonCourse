@@ -8,3 +8,5 @@ called for N milliseconds.
 from time import sleep
 from typing import Any, Callable
 
+def debounce(ms: int) -> Callable:
+    pass
