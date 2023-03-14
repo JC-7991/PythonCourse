@@ -16,3 +16,7 @@ def debounce(ms: int) -> Callable:
             print("Waiting initiated...")
             sleep(int_seconds)
             print("Waiting over.")
+            return f(*args, **kwargs)
+        return wrapped
+    return decorate
+
