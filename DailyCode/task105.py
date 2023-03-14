@@ -5,3 +5,6 @@ That is, as long as the debounced f continues to be invoked, f itself will not b
 called for N milliseconds.
 '''
 
+from time import sleep
+from typing import Any, Callable
+
