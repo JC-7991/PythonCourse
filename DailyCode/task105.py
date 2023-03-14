@@ -9,8 +9,8 @@ from time import sleep
 from typing import Any, Callable
 
 def debounce(ms: int) -> Callable:
-    int_seconds = ms / 1000
 
+    int_seconds = ms / 1000
     def decorate(f: Callable) -> Any:
         def wrapped(*args, **kwargs):
             print("Waiting initiated...")
