@@ -20,3 +20,7 @@ def debounce(ms: int) -> Callable:
         return wrapped
     return decorate
 
+@debounce(3000)
+
+def add_nums(x: int, y: int):
+    pass
