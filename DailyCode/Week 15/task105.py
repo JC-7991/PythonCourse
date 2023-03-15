@@ -10,11 +10,11 @@ from typing import Any, Callable
 
 def debounce(ms: int) -> Callable:
 
-    int_seconds = ms / 1000
+    intvs = ms / 1000
     def decorate(f: Callable) -> Any:
         def wrapped(*args, **kwargs):
             print("Waiting initiated...")
-            sleep(int_seconds)
+            sleep(intvs)
             print("Waiting over.")
             return f(*args, **kwargs)
         return wrapped
