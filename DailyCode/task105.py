@@ -23,4 +23,7 @@ def debounce(ms: int) -> Callable:
 @debounce(3000)
 
 def add_nums(x: int, y: int):
-    pass
+    return x + y
+
+if __name__ == "__main__":
+    print(add_nums(1, 2))
