@@ -27,3 +27,9 @@ def add_nums(x: int, y: int):
 
 if __name__ == "__main__":
     print(add_nums(1, 2))
+    print()
+    print(add_nums(1, 3))
+    print()
+    print(add_nums(1, 4))
+    print()
+    print(add_nums(1, 5))
