@@ -8,4 +8,5 @@ For example, [2, 0, 1, 0] returns true while [1, 1, 0, 1] returns false.
 from typing import List
 
 def reach(arr: List[int]) -> bool:
+    
     length = len(arr)
