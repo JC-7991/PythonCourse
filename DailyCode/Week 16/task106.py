@@ -9,3 +9,4 @@ from typing import List
 
 def reach(arr: List[int]) -> bool:
     length = len(arr)
+    
