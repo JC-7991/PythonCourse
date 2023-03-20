@@ -16,4 +16,7 @@ class Node:
         self.right = None
 
 def printLevelOrder(root):
+    h = height(root)
+
+def height(node):
     pass
