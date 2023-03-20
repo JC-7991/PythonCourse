@@ -25,7 +25,7 @@ def printGivenLevel(root, level):
     if root is None:
         return root
     if level == 1:
-        print(root.data, end = '')
+        print(root.data, end = ' ')
 
 def height(node):
     pass
