@@ -16,3 +16,4 @@ def reach(arr: List[int]) -> bool:
             return True
         elif arr[cur_pos]:
             return False
+        cur_pos += arr[cur_pos]
