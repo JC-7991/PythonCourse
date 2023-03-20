@@ -14,3 +14,6 @@ class Node:
         self.data = key
         self.left = None
         self.right = None
+
+def printLevelOrder(root):
+    pass
