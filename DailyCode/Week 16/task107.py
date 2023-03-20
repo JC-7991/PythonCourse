@@ -17,6 +17,10 @@ class Node:
 
 def printLevelOrder(root):
     h = height(root)
+    for i in range(1, h + 1):
+        printGivenLevel(root, i)
+        print()
+
 
 def height(node):
     pass
