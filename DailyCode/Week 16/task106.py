@@ -23,4 +23,4 @@ def reach(arr: List[int]) -> bool:
     return False
 
 if __name__ == "__main__":
-    pass
+    print(reach([2, 0, 1, 0]))
