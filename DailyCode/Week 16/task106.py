@@ -12,4 +12,5 @@ def reach(arr: List[int]) -> bool:
     length = len(arr)
     cur_pos, last_ind = 0
     while cur_pos < length:
-        pass
+        if cur_pos == last_ind:
+            return True
