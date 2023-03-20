@@ -21,3 +21,6 @@ def reach(arr: List[int]) -> bool:
         cur_pos += arr[cur_pos]
 
     return False
+
+if __name__ == "__main__":
+    pass
