@@ -31,4 +31,5 @@ def printGivenLevel(root, level):
         printGivenLevel(root.right, level - 1)
 
 def height(node):
-    pass
+    if node is None:
+        return 0
