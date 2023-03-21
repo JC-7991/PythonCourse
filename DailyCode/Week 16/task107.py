@@ -33,3 +33,6 @@ def printGivenLevel(root, level):
 def height(node):
     if node is None:
         return 0
+    else:
+        leftHeight = height(node.left)
+        rightHeight = height(node.right)
