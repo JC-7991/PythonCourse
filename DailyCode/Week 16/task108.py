@@ -5,3 +5,6 @@ to get B.
 For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb,
 return false.
 '''
+
+def shift(A: str, B: str) -> bool:
+    pass
