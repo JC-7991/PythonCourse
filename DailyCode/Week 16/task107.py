@@ -48,4 +48,4 @@ if __name__ == "__main__":
     root.right = Node(3)
     root.left.left = Node(4)
     root.left.right = Node(5)
-    print("Level order traversal: "(printLevelOrder(root)))
+    print(printLevelOrder(root))
