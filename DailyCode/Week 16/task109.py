@@ -6,5 +6,5 @@ For example, 10101010 should be 01010101. 11100010 should be 11010001.
 Bonus: Can you do this in one line?
 '''
 
-def swap(num: int) -> int:
+def swapBits(num: int) -> int:
     pass
