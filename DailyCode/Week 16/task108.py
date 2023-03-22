@@ -7,4 +7,4 @@ return false.
 '''
 
 def shift(A: str, B: str) -> bool:
-    pass
+    return (A and B) and (len(A) == len(B) and (B in A * 2))
