@@ -8,3 +8,6 @@ return false.
 
 def shift(A: str, B: str) -> bool:
     return (A and B) and (len(A) == len(B) and (B in A * 2))
+
+if __name__ == "__main__":
+    print(shift("abcde", "cdeab"))
