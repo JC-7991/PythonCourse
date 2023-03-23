@@ -7,4 +7,5 @@ Bonus: Can you do this in one line?
 '''
 
 def swapBits(num: int) -> int:
-    pass
+    filter_mask = 85
+    return ((num & filter_mask) << 1) | ((num & (filter_mask << 1)) >> 1)
