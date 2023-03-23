@@ -12,3 +12,4 @@ def swapBits(num: int) -> int:
 
 if __name__ == "__main__":
     print("Swapped: ", bin(swapBits(0)))
+    print("Swapped: ", bin(swapBits(255)))
