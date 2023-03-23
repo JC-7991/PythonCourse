@@ -10,3 +10,9 @@ For example, given the tree
 it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
 '''
 
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
+
