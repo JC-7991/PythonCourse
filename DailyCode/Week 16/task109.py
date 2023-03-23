@@ -9,3 +9,5 @@ Bonus: Can you do this in one line?
 def swapBits(num: int) -> int:
     filter_mask = 85
     return ((num & filter_mask) << 1) | ((num & (filter_mask << 1)) >> 1)
+
+if __name__ == "__main__":
