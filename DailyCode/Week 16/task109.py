@@ -11,4 +11,4 @@ def swapBits(num: int) -> int:
     return ((num & filter_mask) << 1) | ((num & (filter_mask << 1)) >> 1)
 
 if __name__ == "__main__":
-    pass
+    print("Swapped: ", bin(swapBits(0)))
