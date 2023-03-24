@@ -16,3 +16,5 @@ class Node:
         self.left = None
         self.right = None
 
+def printPaths():
+    pass
