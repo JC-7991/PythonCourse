@@ -17,4 +17,5 @@ class Node:
         self.right = None
 
 def printPaths(root):
-    pass
+    path = []
+    
