@@ -21,4 +21,4 @@ def printPaths(root):
     printPathRec(root, path, 0)
     
 def printPathRec(root, path, pathLen):
-    pass
+    if root is None:
