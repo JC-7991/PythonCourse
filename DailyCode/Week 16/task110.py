@@ -18,6 +18,7 @@ class Node:
 
 def printPaths(root):
     path = []
+    printPathRec(root, path, 0)
     
 def printPathRec(root, path, pathLen):
     pass
