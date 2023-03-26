@@ -24,4 +24,4 @@ def printPathRec(root, path, pathLen):
     if root is None:
         return
     if(len(path) > pathLen):
-        pass
+        path[pathLen] = root.data
