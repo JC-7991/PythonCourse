@@ -23,3 +23,5 @@ def printPaths(root):
 def printPathRec(root, path, pathLen):
     if root is None:
         return
+    if(len(path) > pathLen):
+        pass
