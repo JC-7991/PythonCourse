@@ -26,4 +26,4 @@ def printPathRec(root, path, pathLen):
     if(len(path) > pathLen):
         path[pathLen] = root.data
     else:
-        
+        path.append(root.data)
