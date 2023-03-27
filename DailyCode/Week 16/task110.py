@@ -34,3 +34,6 @@ def printPathRec(root, path, pathLen):
 
     if root.left is None and root.right is None:
         printArray(path, pathLen)
+
+def printArray():
+    pass
