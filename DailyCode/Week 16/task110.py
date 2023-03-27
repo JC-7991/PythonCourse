@@ -44,9 +44,11 @@ def printArray(ints, len):
     print()
 
 if __name__ == "__main__":
+    
     root = Node(10)
     root.left = Node(8)
     root.right = Node(2)
     root.left.left = Node(3)
     root.left.right = Node(5)
     root.right.left = Node(2)
+    printPaths(root)
