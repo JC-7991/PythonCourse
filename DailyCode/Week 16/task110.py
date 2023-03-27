@@ -40,4 +40,4 @@ def printPathRec(root, path, pathLen):
 
 def printArray(ints, len):
     for i in ints[0: len]:
-        print()
+        print(i, " ", end = "")
