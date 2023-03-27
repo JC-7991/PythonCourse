@@ -39,4 +39,5 @@ def printPathRec(root, path, pathLen):
         printPathRec(root.right, path, pathLen)
 
 def printArray(ints, len):
-    for i in ints[0: len]
+    for i in ints[0: len]:
+        print()
