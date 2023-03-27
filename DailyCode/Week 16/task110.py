@@ -21,10 +21,16 @@ def printPaths(root):
     printPathRec(root, path, 0)
     
 def printPathRec(root, path, pathLen):
+
     if root is None:
         return
+    
     if(len(path) > pathLen):
         path[pathLen] = root.data
     else:
         path.append(root.data)
+
     pathLen = pathLen + 1
+    
+    if root.left is None and root.right is None:
+        pass
