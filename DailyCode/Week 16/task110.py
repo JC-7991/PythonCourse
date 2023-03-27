@@ -42,3 +42,6 @@ def printArray(ints, len):
     for i in ints[0: len]:
         print(i, " ", end = "")
     print()
+
+if __name__ == "__main__":
+    pass
