@@ -31,6 +31,6 @@ def printPathRec(root, path, pathLen):
         path.append(root.data)
 
     pathLen = pathLen + 1
-    
+
     if root.left is None and root.right is None:
-        pass
+        printArray(path, pathLen)
