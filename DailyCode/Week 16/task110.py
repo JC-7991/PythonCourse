@@ -44,4 +44,6 @@ def printArray(ints, len):
     print()
 
 if __name__ == "__main__":
-    pass
+    root = Node(10)
+    root.left = Node(8)
+    root.right = Node(2)
