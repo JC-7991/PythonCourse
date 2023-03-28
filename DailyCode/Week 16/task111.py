@@ -15,5 +15,5 @@ def getFreq(string: str) -> Dict[str, int]:
         freq[char] += 1
     return freq
 
-def getWord():
+def getWord(word: str, string: str) -> List[int]:
     pass
