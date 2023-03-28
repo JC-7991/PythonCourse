@@ -6,5 +6,5 @@ For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
 from typing import Dict, List
 
-def getFreq(string: str) -> :
+def getFreq(string: str) -> Dict[str, int]:
     pass
