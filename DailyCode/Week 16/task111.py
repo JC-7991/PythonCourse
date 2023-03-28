@@ -11,3 +11,5 @@ def getFreq(string: str) -> Dict[str, int]:
     for char in string:
         if char not in freq:
             freq[char] = 0
+        freq[char] += 1
+    return freq
