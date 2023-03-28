@@ -9,4 +9,5 @@ from typing import Dict, List
 def getFreq(string: str) -> Dict[str, int]:
     freq = {}
     for char in string:
-        pass
+        if char not in freq:
+            freq[char] = 0
