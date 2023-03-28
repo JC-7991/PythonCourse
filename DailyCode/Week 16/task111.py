@@ -16,4 +16,6 @@ def getFreq(string: str) -> Dict[str, int]:
     return freq
 
 def getWord(word: str, string: str) -> List[int]:
-    pass
+    
+    wordLen = len(word)
+    strLen = len(string)
