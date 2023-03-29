@@ -22,3 +22,7 @@ def getWord(word: str, string: str) -> List[int]:
     charMaster = getFreq(word)
     char = dict(charMaster)
     cnt = 0
+    startInd = []
+
+    if(wordLen > strLen) or (wordLen == 0):
+        pass
