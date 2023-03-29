@@ -25,4 +25,4 @@ def getWord(word: str, string: str) -> List[int]:
     startInd = []
 
     if(wordLen > strLen) or (wordLen == 0):
-        pass
+        return []
