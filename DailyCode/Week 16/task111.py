@@ -19,3 +19,4 @@ def getWord(word: str, string: str) -> List[int]:
     
     wordLen = len(word)
     strLen = len(string)
+    charMaster = getFreq(word)
