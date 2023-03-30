@@ -26,3 +26,6 @@ def getWord(word: str, string: str) -> List[int]:
 
     if(wordLen > strLen) or (wordLen == 0):
         return []
+    
+    while(cnt < strLen):
+        pass
