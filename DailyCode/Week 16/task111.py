@@ -29,4 +29,5 @@ def getWord(word: str, string: str) -> List[int]:
         return []
     
     while(cnt < strLen):
-        pass
+        for i in range(cnt, strLen):
+            pass
