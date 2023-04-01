@@ -31,4 +31,5 @@ def getWord(word: str, string: str) -> List[int]:
     while(cnt < strLen):
         for i in range(cnt, strLen):
             if string[i] not in char:
+                cnt = i
                 
