@@ -33,3 +33,4 @@ def getWord(word: str, string: str) -> List[int]:
             if string[i] not in char:
                 cnt = i
                 char = dict(charMaster)
+                break
