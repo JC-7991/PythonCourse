@@ -32,4 +32,4 @@ def getWord(word: str, string: str) -> List[int]:
         for i in range(cnt, strLen):
             if string[i] not in char:
                 cnt = i
-                
+                char = dict(charMaster)
