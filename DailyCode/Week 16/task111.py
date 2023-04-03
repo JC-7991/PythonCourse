@@ -34,3 +34,4 @@ def getWord(word: str, string: str) -> List[int]:
                 cnt = i
                 char = dict(charMaster)
                 break
+            elif string[i] in 
