@@ -9,4 +9,6 @@ between two nodes v and w as the lowest node in T that has both v and w as desce
 
 class Node:
     def __init__(self, key):
-        pass
+        self.key = key
+        self.left = None
+        self.right = None
