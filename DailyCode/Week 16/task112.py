@@ -12,3 +12,6 @@ class Node:
         self.key = key
         self.left = None
         self.right = None
+
+def findPath(root, path, k):
+    pass
