@@ -21,4 +21,4 @@ def findPath(root, path, k):
     path.append(root.key)
 
     if root.key == k:
-        return 
+        return True
