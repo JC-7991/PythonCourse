@@ -17,3 +17,5 @@ def findPath(root, path, k):
     
     if root is None:
         return False
+    
+    path.append(root.key)
