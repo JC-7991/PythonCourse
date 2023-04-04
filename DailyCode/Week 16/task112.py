@@ -30,4 +30,6 @@ def findPath(root, path, k):
     return False
 
 def findLCA(root, n1, n2):
-    pass
+    
+    path1 = []
+    path2 = []
