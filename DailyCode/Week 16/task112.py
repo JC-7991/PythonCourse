@@ -14,4 +14,6 @@ class Node:
         self.right = None
 
 def findPath(root, path, k):
-    pass
+    
+    if root is None:
+        return False
