@@ -22,3 +22,6 @@ def findPath(root, path, k):
 
     if root.key == k:
         return True
+    
+    if((root.left != None and findPath(root.left, path, k)) or (root.right != None and findPath(root.right, path, k))):
+        return True
