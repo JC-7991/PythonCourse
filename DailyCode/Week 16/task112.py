@@ -47,4 +47,5 @@ def findLCA(root, n1, n2):
     return path1[i - 1]
 
 if __name__ == "__main__":
-    pass
+    
+    root = Node(1)
