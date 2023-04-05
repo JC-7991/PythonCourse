@@ -45,3 +45,6 @@ def findLCA(root, n1, n2):
         i += 1
 
     return path1[i - 1]
+
+if __name__ == "__main__":
+    pass
