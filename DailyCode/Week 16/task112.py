@@ -49,3 +49,4 @@ def findLCA(root, n1, n2):
 if __name__ == "__main__":
     
     root = Node(1)
+    root.left = Node(2)
