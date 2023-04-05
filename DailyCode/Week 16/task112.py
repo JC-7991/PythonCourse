@@ -35,4 +35,4 @@ def findLCA(root, n1, n2):
     path2 = []
 
     if(not findPath(root, path1, n1) or not findPath(root, path2, n2)):
-        pass
+        return -1
