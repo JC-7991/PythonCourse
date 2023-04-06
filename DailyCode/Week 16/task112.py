@@ -57,3 +57,4 @@ if __name__ == "__main__":
     root.right.right = Node(7)
 
     print("LCA(4, 5) = %d" % (findLCA(root, 4, 5)))
+    print("LCA(4, 6) = %d" % (findLCA(root, 4, 6)))
