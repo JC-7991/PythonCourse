@@ -59,3 +59,4 @@ if __name__ == "__main__":
     print("LCA(4, 5) = %d" % (findLCA(root, 4, 5)))
     print("LCA(4, 6) = %d" % (findLCA(root, 4, 6)))
     print("LCA(3, 4) = %d" % (findLCA(root, 3, 4)))
+    print("LCA(2, 4) = %d" % (findLCA(root, 2, 4)))
