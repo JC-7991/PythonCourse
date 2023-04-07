@@ -7,4 +7,4 @@ in-place?
 '''
 
 def reverse(string: str) -> str:
-    pass
+    words = string.split()
