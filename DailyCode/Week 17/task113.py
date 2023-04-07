@@ -8,3 +8,4 @@ in-place?
 
 def reverse(string: str) -> str:
     words = string.split()
+    words.reverse()
