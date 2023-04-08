@@ -12,4 +12,4 @@ def reverse(string: str) -> str:
     return " ".join(words)
 
 if __name__ == "__main__":
-    print(reverse("world hello"))
+    print(reverse("World! Hello"))
