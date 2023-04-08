@@ -10,3 +10,6 @@ def reverse(string: str) -> str:
     words = string.split()
     words.reverse()
     return " ".join(words)
+
+if __name__ == "__main__":
+    pass
