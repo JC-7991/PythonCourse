@@ -9,5 +9,5 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 from typing import Set
 
-def revWords(string: str, delimiters: Set[str]):
+def revWords(string: str, delimiters: Set[str]) -> str:
     pass
