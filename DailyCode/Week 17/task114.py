@@ -7,7 +7,7 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 "hello//world:here"
 '''
 
-from typing import List
+from typing import Set
 
 def revWords(string: str, delimiters: Set[str]):
     pass
