@@ -21,4 +21,5 @@ def revWords(string: str, delimiters: Set[str]) -> str:
     currStr = ""
 
     for char in string:
-        pass
+        if char in delimiters:
+            pass
