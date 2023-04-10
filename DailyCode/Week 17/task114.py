@@ -15,3 +15,4 @@ def revWords(string: str, delimiters: Set[str]) -> str:
         return string
     
     words = []
+    delims = []
