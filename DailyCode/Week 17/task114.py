@@ -34,4 +34,5 @@ def revWords(string: str, delimiters: Set[str]) -> str:
                 flagDelim = True
 
         else:
-            pass
+            if flagDelim:
+                flagDelim = False
