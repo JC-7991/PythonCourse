@@ -44,3 +44,5 @@ def revWords(string: str, delimiters: Set[str]) -> str:
 
     if flagDelim:
         delims.append(currStr)
+    else:
+        words.append(currStr)
