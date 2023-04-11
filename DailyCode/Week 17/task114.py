@@ -38,3 +38,6 @@ def revWords(string: str, delimiters: Set[str]) -> str:
                 flagDelim = False
                 delims.append(currStr)
                 currStr = char
+
+            else:
+                currStr += char
