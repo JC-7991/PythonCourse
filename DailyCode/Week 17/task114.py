@@ -50,3 +50,5 @@ def revWords(string: str, delimiters: Set[str]) -> str:
     words = words[::-1]
     words.append("")
     delims.append("")
+    lenWords = len(words)
+    lenDelims = len(delims)
