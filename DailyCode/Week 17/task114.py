@@ -52,3 +52,8 @@ def revWords(string: str, delimiters: Set[str]) -> str:
     delims.append("")
     lenWords = len(words)
     lenDelims = len(delims)
+    i, j = 0
+    revStr = ""
+
+    if flagStart:
+        pass
