@@ -48,4 +48,3 @@ def revWords(string: str, delimiters: Set[str]) -> str:
         words.append(currStr)
 
     words = words[::-1]
-    
