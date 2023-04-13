@@ -56,4 +56,4 @@ def revWords(string: str, delimiters: Set[str]) -> str:
     revStr = ""
 
     if flagStart:
-        pass
+        j = 0
