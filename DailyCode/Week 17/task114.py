@@ -60,4 +60,5 @@ def revWords(string: str, delimiters: Set[str]) -> str:
         revStr += delims[0]
 
     while i < lenWords or j < lenDelims:
-        pass
+        try:
+            revStr += words[i]
