@@ -5,7 +5,6 @@ maintaining the relative order of the delimiters. For example, given
 "hello/world:here", return "here/world:hello"
 Follow-up: Does your solution work for the following cases: "hello/world:here/",
 "hello//world:here"
-'''
 
 from typing import Set
 
@@ -52,7 +51,8 @@ def revWords(string: str, delimiters: Set[str]) -> str:
     delims.append("")
     lenWords = len(words)
     lenDelims = len(delims)
-    i, j = 0
+    i = 0
+    j = 0
     revStr = ""
 
     if flagStart:
@@ -71,4 +71,9 @@ def revWords(string: str, delimiters: Set[str]) -> str:
     return revStr
 
 if __name__ == "__main__":
-    pass
+    print(revWords("hello/world:here", {":", "/"}))
+    print(revWords("here/world:hello", {":", "/"}))
+    print(revWords("hello/world:here/", {":", "/"}))
+    print(revWords("hello", {":", "/"}))
+    print(revWords("//:", {":", "/"}))
+'''
