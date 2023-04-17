@@ -7,4 +7,6 @@ subtree of itself.
 
 class Node:
     def __init__(self, data):
-        pass
+        self.left = None
+        self.right = None
+        self.data = data
