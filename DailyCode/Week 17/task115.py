@@ -5,3 +5,6 @@ node in s and all of this node's descendants. The tree s could also be considere
 subtree of itself.
 '''
 
+class Node:
+    def __init__(self, data):
+        pass
