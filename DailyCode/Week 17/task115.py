@@ -12,5 +12,5 @@ class Node:
         self.right = None
         self.data = data
 
-def iden():
+def iden(root1, root2):
     pass
