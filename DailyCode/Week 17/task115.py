@@ -13,4 +13,6 @@ class Node:
         self.data = data
 
 def iden(root1, root2):
-    pass
+    
+    if root1 is None and root2 is None:
+        return True
