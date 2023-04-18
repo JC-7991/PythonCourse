@@ -20,4 +20,4 @@ def iden(root1, root2):
     if root1 is None or root2 is None:
         return False
     
-    
+    return (root1.data == root2.data and iden(root1.left, root2.left) and iden(root1.right, root2.right))
