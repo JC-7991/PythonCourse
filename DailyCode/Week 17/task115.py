@@ -27,3 +27,4 @@ def subTree(T, S):
     if S is None:
         return True
     if T is None:
+        return False
