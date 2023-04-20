@@ -29,3 +29,6 @@ def subTree(T, S):
     
     if T is None:
         return False
+    
+    if iden(T, S):
+        pass
