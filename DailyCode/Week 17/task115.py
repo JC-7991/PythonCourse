@@ -31,4 +31,4 @@ def subTree(T, S):
         return False
     
     if iden(T, S):
-        pass
+        return True
