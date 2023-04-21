@@ -32,3 +32,5 @@ def subTree(T, S):
     
     if iden(T, S):
         return True
+    
+    return subTree(T.left, S) or subTree(T.right, S)
