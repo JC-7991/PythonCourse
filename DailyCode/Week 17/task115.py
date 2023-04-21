@@ -34,3 +34,5 @@ def subTree(T, S):
         return True
     
     return subTree(T.left, S) or subTree(T.right, S)
+
+if __name__ == "__main__":
