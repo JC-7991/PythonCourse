@@ -36,4 +36,21 @@ def subTree(T, S):
     return subTree(T.left, S) or subTree(T.right, S)
 
 if __name__ == "__main__":
+    
     T = Node(26)
+    T.right = Node(3)
+    T.right.right = Node(3)
+    T.left = Node(10)
+    T.left.left = Node(4)
+    T.left.left.right = Node(30)
+    T.left.right = Node(6)
+
+    S = Node(10)
+    S.right = Node(6)
+    S.left = Node(4)
+    S.left.right = Node(30)
+
+    if subTree(T, S):
+        print("Tree 2 is subtree of Tree 1")
+    else:
+        print("Tree 2 is not a subtree of Tree 1")
