@@ -36,4 +36,4 @@ def subTree(T, S):
     return subTree(T.left, S) or subTree(T.right, S)
 
 if __name__ == "__main__":
-    pass
+    T = Node(26)
