@@ -4,3 +4,6 @@ That is, generate() should return a tree whose size is unbounded but finite.
 '''
 
 import random
+
+class Node:
+    
