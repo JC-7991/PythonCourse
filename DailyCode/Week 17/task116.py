@@ -17,3 +17,6 @@ class Node:
 
     def left(self):
         pass
+
+    def right(self):
+        pass
