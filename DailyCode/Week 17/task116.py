@@ -33,4 +33,5 @@ class Node:
         return Node()
     
     def traverse(node):
-        pass
+        if node == None:
+            return 0
