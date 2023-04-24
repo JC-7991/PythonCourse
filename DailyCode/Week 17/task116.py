@@ -14,3 +14,6 @@ class Node:
         self._right = right
         self._isLeftEval = False
         self._isRightEval = False
+
+    def left(self):
+        pass
