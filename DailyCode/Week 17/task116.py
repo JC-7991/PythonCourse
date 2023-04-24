@@ -15,6 +15,7 @@ class Node:
         self._isLeftEval = False
         self._isRightEval = False
 
+    @property
     def left(self):
         if not self._isLeftEval:
             if random.random() < 0.5:
@@ -22,6 +23,7 @@ class Node:
             self._isLeftEval = True
         return self._left
 
+    @property
     def right(self):
         if not self._isRightEval:
             if random.random() < 0.5:
