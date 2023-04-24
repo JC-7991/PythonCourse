@@ -39,3 +39,4 @@ def traverse(node):
 
 if __name__ == "__main__":
     Tree = generate()
+    print("Generated", traverse(Tree), "nodes.")
