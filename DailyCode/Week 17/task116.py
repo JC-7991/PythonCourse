@@ -8,3 +8,4 @@ import random
 class Node:
     def __init__(self, val = 1, left = None, right = None):
         self.val = val
+        self._left = left
