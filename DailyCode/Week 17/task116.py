@@ -10,3 +10,4 @@ class Node:
         self.val = val
         self._left = left
         self._right = right
+        self._isLeftEval = False
