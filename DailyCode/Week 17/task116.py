@@ -35,3 +35,4 @@ class Node:
     def traverse(node):
         if node == None:
             return 0
+        return node.val + traverse(node.left) + traverse(node.right)
