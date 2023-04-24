@@ -29,10 +29,13 @@ class Node:
             self._isRightEval = True
         return self._right
     
-    def generate():
-        return Node()
+def generate():
+    return Node()
     
-    def traverse(node):
-        if node == None:
-            return 0
-        return node.val + traverse(node.left) + traverse(node.right)
+def traverse(node):
+    if node == None:
+        return 0
+    return node.val + traverse(node.left) + traverse(node.right)
+
+if __name__ == "__main__":
+    Tree = generate()
