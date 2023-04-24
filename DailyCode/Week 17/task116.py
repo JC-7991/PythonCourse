@@ -23,4 +23,8 @@ class Node:
         return self._left
 
     def right(self):
-        pass
+        if not self._isRightEval:
+            if random.random() < 0.5:
+                self._right = Node()
+            self._isRightEval = True
+        return self._right
