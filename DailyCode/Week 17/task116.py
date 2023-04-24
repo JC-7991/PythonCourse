@@ -16,7 +16,9 @@ class Node:
         self._isRightEval = False
 
     def left(self):
-        pass
+        if not self._isLeftEval:
+            if random.random() < 0.5:
+                pass
 
     def right(self):
         pass
