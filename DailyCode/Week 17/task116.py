@@ -31,3 +31,6 @@ class Node:
     
     def generate():
         return Node()
+    
+    def traverse(node):
+        pass
