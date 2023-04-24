@@ -11,3 +11,4 @@ class Node:
         self._left = left
         self._right = right
         self._isLeftEval = False
+        self._isRightEval = False
