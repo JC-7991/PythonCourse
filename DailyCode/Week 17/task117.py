@@ -7,4 +7,6 @@ from collections import deque
 class Node:
 
     def __init__(self, key):
-        pass
+        self.data = key
+        self.left = key
+        self.right = key
