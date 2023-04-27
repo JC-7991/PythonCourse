@@ -15,5 +15,6 @@ def maxLvl(root):
 
     if root == None:
         return 0
+    
     result = root.data
 
