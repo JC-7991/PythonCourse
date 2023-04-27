@@ -17,4 +17,3 @@ def maxLvl(root):
         return 0
     
     result = root.data
-
