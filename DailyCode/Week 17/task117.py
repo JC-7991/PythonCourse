@@ -20,3 +20,6 @@ def maxLvl(root):
 
     q = deque()
     q.append(root)
+
+    while(len(q) > 0):
+        pass
