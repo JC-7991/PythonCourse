@@ -23,3 +23,4 @@ def maxLvl(root):
 
     while(len(q) > 0):
         count = len(q)
+        sum = 0
