@@ -22,4 +22,4 @@ def maxLvl(root):
     q.append(root)
 
     while(len(q) > 0):
-        pass
+        count = len(q)
