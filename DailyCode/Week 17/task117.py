@@ -27,4 +27,4 @@ def maxLvl(root):
         sum = 0
         
         while(count > 0):
-            pass
+            temp = q.popleft()
