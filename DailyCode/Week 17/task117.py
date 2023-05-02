@@ -35,3 +35,5 @@ def maxLvl(root):
                 q.append(temp.left)
             if temp.right != None:
                 q.append(temp.right)
+
+            count -= 1
