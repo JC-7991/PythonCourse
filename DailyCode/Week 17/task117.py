@@ -30,3 +30,6 @@ def maxLvl(root):
 
             temp = q.popleft()
             sum = sum + temp.data
+
+            if temp.left != None:
+                q.append(temp.left)
