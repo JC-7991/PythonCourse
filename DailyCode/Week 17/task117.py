@@ -37,3 +37,7 @@ def maxLvl(root):
                 q.append(temp.right)
 
             count -= 1
+        
+        result = max(sum, result)
+    
+    return result
