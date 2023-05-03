@@ -9,4 +9,5 @@ from typing import List
 Array = List[int]
 
 def mergeLists(arr1: Array, arr2: Array) -> Array:
-    pass
+    
+    ptr1, len1 = 0, len(arr1)
