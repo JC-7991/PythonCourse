@@ -15,4 +15,4 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
     mergeArray = []
 
     while ptr1 < len1 and ptr2 < len2:
-        pass
+        if arr1[ptr1] < arr2[ptr2]:
