@@ -12,3 +12,4 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
     
     ptr1, len1 = 0, len(arr1)
     ptr2, len2 = 0, len(arr2)
+    mergeArray = []
