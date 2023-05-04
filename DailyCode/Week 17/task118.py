@@ -16,3 +16,4 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
 
     while ptr1 < len1 and ptr2 < len2:
         if arr1[ptr1] < arr2[ptr2]:
+            pass
