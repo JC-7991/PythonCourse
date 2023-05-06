@@ -19,4 +19,5 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
             mergeArray.append(arr1[ptr1])
             ptr1 += 1
         else:
-            
+            mergeArray.append(arr2[ptr2])
+            ptr2 += 1
