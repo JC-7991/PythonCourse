@@ -27,3 +27,6 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
     mergeArray.extend(arr1[ptr1:])
     mergeArray.extend(arr2[ptr2:])
     return mergeArray
+
+def sortElems():
+    pass
