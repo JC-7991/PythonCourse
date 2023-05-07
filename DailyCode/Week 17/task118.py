@@ -28,5 +28,5 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
     mergeArray.extend(arr2[ptr2:])
     return mergeArray
 
-def sortSquare(arr: Array) -> Array:
+def sortSquared(arr: Array) -> Array:
     pass
