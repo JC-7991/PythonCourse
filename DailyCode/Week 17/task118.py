@@ -29,4 +29,5 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
     return mergeArray
 
 def sortSquared(arr: Array) -> Array:
-    pass
+    
+    pos = 0
