@@ -32,6 +32,8 @@ def sortSquared(arr: Array) -> Array:
 
     pos = 0
     length = len(Array)
+
     for i in range(length):
         if arr[i] > 0:
-            pos = 1
+            pos = i
+            break
