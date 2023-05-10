@@ -30,10 +30,12 @@ def mergeLists(arr1: Array, arr2: Array) -> Array:
 
 def sortSquared(arr: Array) -> Array:
 
-    pos = 0
+    position
     length = len(Array)
 
     for i in range(length):
         if arr[i] > 0:
-            pos = i
+            position = i
             break
+        else:
+            position = length
