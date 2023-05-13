@@ -7,4 +7,5 @@ that covers all these intervals is {3, 6}.
 
 from typing import List, Optional, Tuple
 
-def span()
+def span():
+    pass
