@@ -11,3 +11,5 @@ def span(intervals: List[List[int]]) -> Optional[Tuple]:
     
     if not intervals:
         return
+    
+    start = intervals[0][1]
