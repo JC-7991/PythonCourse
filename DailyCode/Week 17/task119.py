@@ -17,6 +17,8 @@ def span(intervals: List[List[int]]) -> Optional[Tuple]:
     pos = 1
 
     for interval in intervals[1:]:
+
         int_start, int_end = interval
+        
         if int_start < start and int_end < start:
             pass
