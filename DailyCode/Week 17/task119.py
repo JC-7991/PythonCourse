@@ -37,4 +37,11 @@ def span(intervals: List[List[int]]) -> Optional[Tuple]:
     return start, end
 
 if __name__ == "__main__":
-    pass
+
+    print(span([[0, 3]]))
+    print(span([[0, 3], [2, 6]]))
+    print(span([[0, 3], [2, 6], [3, 4]]))
+    print(span([[0, 3], [2, 6], [3, 4], [6, 7]]))
+    print(span([[0, 3], [2, 6], [3, 4], [6, 9]]))
+    print(span([[0, 3], [2, 6], [3, 4], [6, 100]]))
+    print(span([[0, 4], [1, 2], [5, 6]]))
