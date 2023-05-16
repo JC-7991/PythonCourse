@@ -31,3 +31,5 @@ def span(intervals: List[List[int]]) -> Optional[Tuple]:
         int_start, _ = interval
         if int_start > end:
             end = int_start
+    
+    return start, end
