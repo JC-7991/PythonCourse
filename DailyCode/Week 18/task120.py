@@ -5,3 +5,6 @@ and in every odd call of getInstance(), return the second instance.
 '''
 
 from __future__ import annotations
+
+class Twisted_Singleton:
+    pass
