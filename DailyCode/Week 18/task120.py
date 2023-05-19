@@ -12,4 +12,5 @@ class Twisted_Singleton:
     _instance2 = None
     _isInitialized = False
 
-    
+    def __init__(self, instance_num: int) -> None:
+        pass
