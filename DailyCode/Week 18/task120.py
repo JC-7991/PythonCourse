@@ -14,3 +14,5 @@ class Twisted_Singleton:
 
     def __init__(self, instance_num: int) -> None:
         self.instance_num = instance_num
+
+        
