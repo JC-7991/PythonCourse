@@ -16,4 +16,4 @@ class Twisted_Singleton:
         self.instance_num = instance_num
 
     def __repr__(self) -> str:
-        pass
+        return str(self.instance)
