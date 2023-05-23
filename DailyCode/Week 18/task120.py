@@ -19,4 +19,5 @@ class Twisted_Singleton:
         return str(self.instance_num)
     
     @staticmethod
-    def initialize() -> None
+    def initialize() -> None:
+        pass
