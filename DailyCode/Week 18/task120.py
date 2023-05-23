@@ -17,5 +17,3 @@ class Twisted_Singleton:
 
     def __repr__(self) -> str:
         return str(self.instance_num)
-
-     
