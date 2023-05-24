@@ -25,6 +25,9 @@ def player_input():
     
     else:
         return ('O', 'X')
+    
+def place_marker(board, marker, position):
+    pass
 
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
