@@ -34,4 +34,5 @@ def win_check(mark, board):
 
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
+    place_marker(test_board, '$', 8)
     display_board(test_board)
