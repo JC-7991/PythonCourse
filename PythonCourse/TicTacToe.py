@@ -16,16 +16,15 @@ def display_board(board):
 def player_input():
     
     marker = ''
+
     while marker != 'X' and marker != 'O':
         marker = input('Player 1, choose X or O: ').upper()
 
     if marker == 'X':
         return ('X', 'O')
+    
     else:
         return ('O', 'X')
-
-
-
 
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
