@@ -28,4 +28,5 @@ class Twisted_Singleton:
             Twisted_Singleton._is_initialized = True
     
     @staticmethod
-    def getInstance() -> Twisted_Singleton
+    def getInstance() -> Twisted_Singleton:
+        pass
