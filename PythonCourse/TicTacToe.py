@@ -13,6 +13,9 @@ def display_board(board):
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('   |   |')
 
+def player_input():
+    pass
+
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
     display_board(test_board)
