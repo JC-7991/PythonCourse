@@ -19,6 +19,9 @@ def player_input():
     while marker != 'X' and marker != 'O':
         marker = input('Player 1, choose X or O: ').upper()
 
+    if marker == 'X':
+        return ('X', 'O')
+
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
     display_board(test_board)
