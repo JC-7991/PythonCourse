@@ -14,7 +14,10 @@ def display_board(board):
     print('   |   |')
 
 def player_input():
-    pass
+    
+    marker = ''
+    while marker != 'X' and marker != 'O':
+        pass
 
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
