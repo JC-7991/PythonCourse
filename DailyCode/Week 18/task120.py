@@ -20,8 +20,9 @@ class Twisted_Singleton:
     
     @staticmethod
     def initialize() -> None:
-        
+
         if not Twisted_Singleton._isInitialized:
+            
             Twisted_Singleton._instance1 = Twisted_Singleton(1)
             Twisted_Singleton._instance2 = Twisted_Singleton(2)
             Twisted_Singleton._is_initialized = True
