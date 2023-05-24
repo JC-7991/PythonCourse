@@ -22,6 +22,9 @@ def player_input():
     if marker == 'X':
         return ('X', 'O')
 
+
+
+
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
     display_board(test_board)
