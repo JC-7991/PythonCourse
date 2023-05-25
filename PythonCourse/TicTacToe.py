@@ -1,3 +1,5 @@
+import random
+
 def display_board(board):
 
     print('\n' * 100)
@@ -29,8 +31,8 @@ def player_input():
 def place_marker(board, marker, position):
     board[position] = marker
 
-def win_check(mark, board):
-    
+def win_check(board, mark):
+
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or
     (board[4] == mark and board[5] == mark and board[6] == mark) or
     (board[1] == mark and board[2] == mark and board[3] == mark) or
@@ -41,6 +43,7 @@ def win_check(mark, board):
     (board[9] == mark and board[5] == mark and board[1] == mark))
 
 if __name__ == "__main__":
-    test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
+    test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
     place_marker(test_board, '$', 8)
     display_board(test_board)
+    print(win_check(test_board, 'O'))
