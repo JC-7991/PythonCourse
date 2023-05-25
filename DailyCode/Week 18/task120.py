@@ -29,4 +29,5 @@ class Twisted_Singleton:
     
     @staticmethod
     def getInstance() -> Twisted_Singleton:
-        pass
+        if not Twisted_Singleton._isInitialized:
+            pass
