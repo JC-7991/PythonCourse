@@ -43,8 +43,8 @@ def win_check(board, mark):
     (board[9] == mark and board[5] == mark and board[1] == mark))
 
 if __name__ == "__main__":
-    
+
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
     place_marker(test_board, '$', 8)
     display_board(test_board)
-    print(win_check(test_board, 'O'))
+    print(win_check(test_board, 'X'))
