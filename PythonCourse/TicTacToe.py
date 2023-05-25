@@ -30,7 +30,7 @@ def place_marker(board, marker, position):
     board[position] = marker
 
 def win_check(mark, board):
-    pass
+    (board[7] == mark and board[8] == mark and board[9] == mark)
 
 if __name__ == "__main__":
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O']
