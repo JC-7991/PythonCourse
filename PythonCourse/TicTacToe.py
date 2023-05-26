@@ -3,7 +3,6 @@ import random
 def display_board(board):
 
     print('\n' * 100)
-    
     print('   |   |')
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
     print('   |   |')
