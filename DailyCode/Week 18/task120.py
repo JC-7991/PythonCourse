@@ -39,6 +39,7 @@ class Twisted_Singleton:
 
         else:
             instance = Twisted_Singleton._instance2
+            
         Twisted_Singleton._is_odd = not Twisted_Singleton._is_odd
-        
+
         return instance
