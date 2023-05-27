@@ -30,6 +30,7 @@ class Twisted_Singleton:
     
     @staticmethod
     def getInstance() -> Twisted_Singleton:
+        
         if not Twisted_Singleton._isInitialized:
             Twisted_Singleton.initialize()
         if Twisted_Singleton._is_odd:
