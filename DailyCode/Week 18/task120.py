@@ -10,6 +10,7 @@ class Twisted_Singleton:
 
     _instance1 = None
     _instance2 = None
+    _is_odd = True
     _isInitialized = False
 
     def __init__(self, instance_num: int) -> None:
@@ -25,9 +26,15 @@ class Twisted_Singleton:
 
             Twisted_Singleton._instance1 = Twisted_Singleton(1)
             Twisted_Singleton._instance2 = Twisted_Singleton(2)
-            Twisted_Singleton._is_initialized = True
+            Twisted_Singleton._isInitialized = True
     
     @staticmethod
     def getInstance() -> Twisted_Singleton:
         if not Twisted_Singleton._isInitialized:
             Twisted_Singleton.initialize()
+        if Twisted_Singleton._is_odd:
+            instance = Twisted_Singleton._instance1
+        else:
+            instance = Twisted_Singleton._instance2
+        Twisted_Singleton._is_odd = not Twisted_Singleton._is_odd
+        return instance
