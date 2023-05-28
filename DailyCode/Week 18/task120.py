@@ -44,4 +44,4 @@ class Twisted_Singleton:
 
         return instance
 
-if __name__ == "__main__"
+if __name__ == "__main__":
