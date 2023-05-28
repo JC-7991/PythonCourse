@@ -43,3 +43,5 @@ class Twisted_Singleton:
         Twisted_Singleton._is_odd = not Twisted_Singleton._is_odd
 
         return instance
+
+if __name__ == "__main__"
