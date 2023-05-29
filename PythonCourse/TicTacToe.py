@@ -62,10 +62,10 @@ def full_board_check(board):
     return True
 
 def player_choice(board):
-    
-    position = 0
-    while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
 
+    position = 0
+    while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9] or not space_check(board, position):
+        pass
 
 def replay():
     pass
