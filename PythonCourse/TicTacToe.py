@@ -61,6 +61,9 @@ def full_board_check(board):
             return False
     return True
 
+def player_choice(board):
+    
+
 def replay():
     pass
 
