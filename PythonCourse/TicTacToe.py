@@ -69,7 +69,7 @@ def player_choice(board):
     return position
 
 def replay():
-    pass
+    input('Play again? Yes or No: ')
 
 if __name__ == "__main__":
 
