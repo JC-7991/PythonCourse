@@ -56,7 +56,8 @@ def space_check(board, position):
 
 def full_board_check(board):
     for i in range(1, 10):
-        if space_check()
+        if space_check(board, i):
+            return False
 
 def replay():
     pass
