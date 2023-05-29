@@ -55,6 +55,10 @@ def space_check(board, position):
     return board[position] == ' '
 
 def full_board_check(board):
+    for i in range(1, 10):
+        if space_check()
+
+def replay():
     pass
 
 if __name__ == "__main__":
