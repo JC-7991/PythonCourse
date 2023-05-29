@@ -52,7 +52,7 @@ def choose_first():
         return 'Player 2'
 
 def space_check(board, position):
-    board[position] == ' '
+    return board[position] == ' '
 
 def full_board_check(board):
     pass
