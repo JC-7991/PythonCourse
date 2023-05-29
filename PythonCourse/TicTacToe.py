@@ -45,14 +45,14 @@ def win_check(board, mark):
 def choose_first():
     
     flip = random.randint(0, 1)
-    
+
     if flip == 0:
         return 'Player 1'
     else:
         return 'Player 2'
 
 def space_check(board, position):
-    pass
+    board[position] == ' '
 
 def full_board_check(board):
     pass
