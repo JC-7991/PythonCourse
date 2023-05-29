@@ -45,4 +45,11 @@ class Twisted_Singleton:
         return instance
 
 if __name__ == "__main__":
-    pass
+    
+    Twisted_Singleton.initialize()
+    print(Twisted_Singleton.getInstance())
+    print(Twisted_Singleton.getInstance())
+    print(Twisted_Singleton.getInstance())
+    print(Twisted_Singleton.getInstance())
+    print(Twisted_Singleton.getInstance())
+    print(Twisted_Singleton.getInstance())
