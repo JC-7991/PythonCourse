@@ -45,6 +45,11 @@ def win_check(board, mark):
 def choose_first():
     pass
 
+def space_check(board, position):
+    pass
+
+def
+
 if __name__ == "__main__":
 
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
