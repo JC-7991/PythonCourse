@@ -48,7 +48,8 @@ def choose_first():
 def space_check(board, position):
     pass
 
-def
+def full_board_check(board):
+    pass
 
 if __name__ == "__main__":
 
