@@ -42,6 +42,9 @@ def win_check(board, mark):
     (board[7] == mark and board[5] == mark and board[3] == mark) or
     (board[9] == mark and board[5] == mark and board[1] == mark))
 
+def choose_first():
+    pass
+
 if __name__ == "__main__":
 
     test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
