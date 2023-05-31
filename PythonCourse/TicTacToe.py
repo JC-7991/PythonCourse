@@ -78,3 +78,8 @@ if __name__ == "__main__":
     place_marker(test_board, '$', 8)
     display_board(test_board)
     print(win_check(test_board, 'X'))'''
+
+    print('Welcome to Tic Tac Toe!')
+    
+    while True:
+        pass
