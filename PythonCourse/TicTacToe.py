@@ -94,6 +94,8 @@ if __name__ == "__main__":
 
         if play_game == "Y":
             game_on = True
+        else:
+            game_on = False
 
         if not replay():
             break
