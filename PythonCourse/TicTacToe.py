@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
         if play_game == "Y":
             game_on = True
-            
+
         else:
             game_on = False
 
@@ -111,6 +111,9 @@ if __name__ == "__main__":
                 if full_board_check(the_board):
                     display_board(the_board)
                     print('Game Tied!')
+                    break
+                else:
+                    pass
 
         if not replay():
             break
