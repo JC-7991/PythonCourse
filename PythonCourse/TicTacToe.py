@@ -105,6 +105,9 @@ if __name__ == "__main__":
                 postion = player_choice(the_board)
                 place_marker(the_board)
 
+                if win_check(the_board, player1_marker):
+                    pass
+
             else:
                 pass
 
