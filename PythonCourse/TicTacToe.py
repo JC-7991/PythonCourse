@@ -106,15 +106,18 @@ if __name__ == "__main__":
                     print('Player 1 wins!')
                     game_on = False
 
-            else:
-                
-                if full_board_check(the_board):
-                    display_board(the_board)
-                    print('Game Tied!')
-                    game_on = False
-
                 else:
-                    turn = "Player 2"
+                    
+                    if full_board_check(the_board):
+                        display_board(the_board)
+                        print('Game Tied!')
+                        game_on = False
+
+                    else:
+                        turn = "Player 2"
+            
+            else:
+                pass
 
         if not replay():
             break
