@@ -112,8 +112,9 @@ if __name__ == "__main__":
                     display_board(the_board)
                     print('Game Tied!')
                     break
+                
                 else:
-                    pass
+                    turn = "Player 2"
 
         if not replay():
             break
