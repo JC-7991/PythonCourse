@@ -111,8 +111,8 @@ if __name__ == "__main__":
                 if full_board_check(the_board):
                     display_board(the_board)
                     print('Game Tied!')
-                    break
-                
+                    game_on = False
+
                 else:
                     turn = "Player 2"
 
