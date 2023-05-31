@@ -83,7 +83,9 @@ if __name__ == "__main__":
 
     while True:
 
-        
+        the_board = [' '] * 10
+
+        player1_marker, player2_marker = player_input()
 
         if not replay():
             break
