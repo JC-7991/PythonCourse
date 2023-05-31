@@ -111,7 +111,9 @@ if __name__ == "__main__":
                     game_on = False
 
             else:
-                pass
+                
+                if full_board_check(the_board):
+                    display_board(the_board)
 
         if not replay():
             break
