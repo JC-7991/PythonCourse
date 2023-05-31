@@ -107,6 +107,8 @@ if __name__ == "__main__":
 
                 if win_check(the_board, player1_marker):
                     display_board(the_board)
+                    print('Player 1 wins!')
+                    game_on = False
 
             else:
                 pass
