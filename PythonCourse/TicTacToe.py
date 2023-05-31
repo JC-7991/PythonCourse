@@ -100,9 +100,10 @@ if __name__ == "__main__":
         while game_on:
 
             if turn == "Player 1":
-                
+
                 display_board(the_board)
                 postion = player_choice(the_board)
+                place_marker(the_board)
 
             else:
                 pass
