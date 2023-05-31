@@ -98,8 +98,8 @@ if __name__ == "__main__":
             if turn == "Player 1":
 
                 display_board(the_board)
-                postion = player_choice(the_board)
-                place_marker(the_board)
+                position = player_choice(the_board)
+                place_marker(the_board, player1_marker, position)
 
                 if win_check(the_board, player1_marker):
                     display_board(the_board)
@@ -119,8 +119,8 @@ if __name__ == "__main__":
             else:
 
                 display_board(the_board)
-                postion = player_choice(the_board)
-                place_marker(the_board)
+                position = player_choice(the_board)
+                place_marker(the_board, player2_marker, position)
 
                 if win_check(the_board, player2_marker):
                     display_board(the_board)
