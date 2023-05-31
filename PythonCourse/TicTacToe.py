@@ -87,5 +87,13 @@ if __name__ == "__main__":
 
         player1_marker, player2_marker = player_input()
 
+        turn = choose_first()
+        print(turn + ' will go first!')
+
+        play_game = input('Ready to play? Y or N: ')
+
+        if play_game == "Y":
+            game_on = True
+
         if not replay():
             break
