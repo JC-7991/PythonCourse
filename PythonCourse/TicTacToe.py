@@ -101,6 +101,7 @@ if __name__ == "__main__":
 
             if turn == "Player 1":
                 display_board(the_board)
+                
             else:
                 pass
 
