@@ -117,7 +117,25 @@ if __name__ == "__main__":
                         turn = "Player 2"
             
             else:
-                pass
+
+                display_board(the_board)
+                postion = player_choice(the_board)
+                place_marker(the_board)
+
+                if win_check(the_board, player2_marker):
+                    display_board(the_board)
+                    print('Player 2 wins!')
+                    game_on = False
+
+                else:
+                    
+                    if full_board_check(the_board):
+                        display_board(the_board)
+                        print('Game Tied!')
+                        game_on = False
+
+                    else:
+                        turn = "Player 1"
 
         if not replay():
             break
