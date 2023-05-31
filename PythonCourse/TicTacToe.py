@@ -97,5 +97,12 @@ if __name__ == "__main__":
         else:
             game_on = False
 
+        while game_on:
+
+            if turn == "Player 1":
+
+            else:
+                
+
         if not replay():
             break
