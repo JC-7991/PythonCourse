@@ -106,7 +106,7 @@ if __name__ == "__main__":
                 place_marker(the_board)
 
                 if win_check(the_board, player1_marker):
-                    pass
+                    display_board(the_board)
 
             else:
                 pass
