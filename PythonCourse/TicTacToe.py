@@ -74,11 +74,6 @@ def replay():
 
 if __name__ == "__main__":
 
-    '''test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
-    place_marker(test_board, '$', 8)
-    display_board(test_board)
-    print(win_check(test_board, 'X'))'''
-
     print('Welcome to Tic Tac Toe!')
 
     while True:
@@ -114,6 +109,7 @@ if __name__ == "__main__":
                 
                 if full_board_check(the_board):
                     display_board(the_board)
+                    print('Game Tied!')
 
         if not replay():
             break
