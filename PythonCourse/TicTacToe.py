@@ -100,9 +100,9 @@ if __name__ == "__main__":
         while game_on:
 
             if turn == "Player 1":
-
+                display_board(the_board)
             else:
-                
+
 
         if not replay():
             break
