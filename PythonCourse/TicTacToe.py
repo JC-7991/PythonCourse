@@ -80,6 +80,10 @@ if __name__ == "__main__":
     print(win_check(test_board, 'X'))'''
 
     print('Welcome to Tic Tac Toe!')
-    
+
     while True:
-        pass
+
+        
+
+        if not replay():
+            break
