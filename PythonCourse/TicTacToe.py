@@ -74,7 +74,7 @@ def replay():
 
 if __name__ == "__main__":
 
-    test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
+    '''test_board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'X']
     place_marker(test_board, '$', 8)
     display_board(test_board)
-    print(win_check(test_board, 'X'))
+    print(win_check(test_board, 'X'))'''
