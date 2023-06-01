@@ -4,5 +4,5 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get
 'waterretaw'.
 '''
 
-def isPalin(string: str):
+def isPalin(string: str) -> bool:
     pass
