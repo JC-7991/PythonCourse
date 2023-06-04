@@ -7,5 +7,5 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get
 def isPalin(string: str) -> bool:
     return string == string[::-1]
 
-def makePalin(string: str, k: int):
+def makePalin(string: str, k: int) -> bool:
     pass
