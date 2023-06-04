@@ -8,4 +8,5 @@ def isPalin(string: str) -> bool:
     return string == string[::-1]
 
 def makePalin(string: str, k: int) -> bool:
-    pass
+    if isPalin(string):
+        return True
