@@ -20,3 +20,6 @@ def makePalin(string: str, k: int) -> bool:
             return True
     
     return False
+
+if __name__ == "__main__":
+    pass
