@@ -16,4 +16,5 @@ def makePalin(string: str, k: int) -> bool:
         return False
     
     for i in range(len(string)):
-        pass
+        if makePalin(string[:i] + string[i + k :], k - 1):
+            pass
