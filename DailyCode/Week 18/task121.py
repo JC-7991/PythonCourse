@@ -14,3 +14,6 @@ def makePalin(string: str, k: int) -> bool:
     
     if not k:
         return False
+    
+    for i in range(len(string)):
+        pass
