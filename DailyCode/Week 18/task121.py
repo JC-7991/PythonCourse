@@ -22,4 +22,4 @@ def makePalin(string: str, k: int) -> bool:
     return False
 
 if __name__ == "__main__":
-    pass
+    print(makePalin("waterrfetawx", 2))
