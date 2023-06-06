@@ -23,3 +23,4 @@ def makePalin(string: str, k: int) -> bool:
 
 if __name__ == "__main__":
     print(makePalin("waterrfetawx", 2))
+    print(makePalin("gohangasalamiimalasagnahogxx", 2))
