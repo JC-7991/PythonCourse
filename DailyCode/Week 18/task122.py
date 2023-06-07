@@ -8,4 +8,3 @@ For example, in this matrix:
 1 5 3 1
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 '''
-
