@@ -10,3 +10,6 @@ The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 '''
 
 from typing import List
+
+def maxCoins():
+    pass
