@@ -13,3 +13,4 @@ from typing import List
 
 def maxCoins(matrix: List[List[int]]) -> int:
     n = len(matrix)
+    m = len(matrix[0])
