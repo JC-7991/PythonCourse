@@ -17,4 +17,5 @@ def maxCoins(matrix: List[List[int]]) -> int:
     m = len(matrix[0])
 
     for i in range(1, n):
-        pass
+        for j in range(1, m):
+            pass
