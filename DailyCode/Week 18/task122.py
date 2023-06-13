@@ -37,5 +37,5 @@ if __name__ == "__main__":
         [2, 8, 9, 4],
         [1, 5, 3, 1]
     ]
-    
+
     print(maxCoins(matrix))
