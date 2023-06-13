@@ -23,11 +23,13 @@ def maxCoins(matrix: List[List[int]]) -> int:
     return matrix[n - 1][m - 1]
 
 if __name__ == "__main__":
+
     matrix = [
         [0, 3, 1, 1],
         [2, 0, 0, 4],
         [1, 5, 3, 1]
     ]
+
     print(maxCoins(matrix))
 
     matrix = [
@@ -35,4 +37,5 @@ if __name__ == "__main__":
         [2, 8, 9, 4],
         [1, 5, 3, 1]
     ]
+    
     print(maxCoins(matrix))
