@@ -28,7 +28,7 @@ if __name__ == "__main__":
         [2, 0, 0, 4],
         [1, 5, 3, 1]
     ]
-    print(get_max_coins(matrix))
+    print(maxCoins(matrix))
 
     matrix = [
         [0, 3, 1, 1],
