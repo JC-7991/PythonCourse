@@ -13,3 +13,5 @@ And here are examples of non-numbers:
 "-"
 '''
 
+def valid():
+    pass
