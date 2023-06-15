@@ -12,4 +12,5 @@ class Account():
         if self.balance >= withAmt:
             self.balance = self.balance - withAmt
             print(f"Withdrew ${withAmt} from the balance.")
-        
+        else:
+            print("Insufficient funds.")
