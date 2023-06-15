@@ -17,3 +17,6 @@ class Account():
 
     def __str__(self):
         return f"Owner: {self.owner}\nBalance: {self.balance}"
+    
+if __name__ == "__main__":
+    a = Account("Sam", 500)
