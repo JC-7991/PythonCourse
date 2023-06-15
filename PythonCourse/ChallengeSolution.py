@@ -19,4 +19,7 @@ class Account():
         return f"Owner: {self.owner}\nBalance: {self.balance}"
     
 if __name__ == "__main__":
+
     a = Account("Sam", 500)
+    print(a.owner)
+    print(a.balance)
