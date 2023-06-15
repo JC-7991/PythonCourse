@@ -26,3 +26,4 @@ if __name__ == "__main__":
     print(a)
     a.withdrawal(100)
     print(a)
+    a.withdrawal(10000)
