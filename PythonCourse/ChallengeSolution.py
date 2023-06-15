@@ -16,4 +16,4 @@ class Account():
             print("Insufficient funds.")
 
     def __str__(self):
-        pass
+        return f"Owner: {self.owner}\nBalance: {self.balance}"
