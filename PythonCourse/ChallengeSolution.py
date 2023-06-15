@@ -22,3 +22,7 @@ if __name__ == "__main__":
 
     a = Account("Sam", 500)
     print(a)
+    a.deposit(500)
+    print(a)
+    a.withdrawal(100)
+    print(a)
