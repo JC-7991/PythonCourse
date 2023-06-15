@@ -15,4 +15,5 @@ class Account():
         else:
             print("Insufficient funds.")
 
-    
+    def __str__(self):
+        pass
