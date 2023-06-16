@@ -14,4 +14,5 @@ And here are examples of non-numbers:
 '''
 
 def valid(string: str) -> bool:
-    pass
+    valid = True
+    hasNum = False
