@@ -13,5 +13,5 @@ And here are examples of non-numbers:
 "-"
 '''
 
-def valid(string: str):
+def valid(string: str) -> bool:
     pass
