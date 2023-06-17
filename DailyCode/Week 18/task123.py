@@ -17,3 +17,4 @@ def valid(string: str) -> bool:
     
     valid = True
     hasNum = False
+    numNegatives, numPoints, numE = 0, 0, 0
