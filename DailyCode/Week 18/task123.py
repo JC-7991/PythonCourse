@@ -20,4 +20,5 @@ def valid(string: str) -> bool:
     numNegatives, numPoints, numE = 0, 0, 0
 
     for char in string:
-        pass
+        if not (char.isdigit()):
+            pass
