@@ -19,4 +19,5 @@ def valid(string: str) -> bool:
     hasNum = False
     numNegatives, numPoints, numE = 0, 0, 0
 
-    
+    for char in string:
+        pass
