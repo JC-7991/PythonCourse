@@ -22,4 +22,5 @@ def valid(string: str) -> bool:
     for char in string:
         if not (char.isdigit()):
             if char == "-":
-                pass
+                if numNegatives >= 1:
+                    pass
