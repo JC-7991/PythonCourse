@@ -21,4 +21,5 @@ def valid(string: str) -> bool:
 
     for char in string:
         if not (char.isdigit()):
-            pass
+            if char == "-":
+                pass
