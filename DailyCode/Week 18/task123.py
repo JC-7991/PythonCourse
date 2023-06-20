@@ -13,15 +13,18 @@ And here are examples of non-numbers:
 "-"
 '''
 
-def check_valid_number_representation(string: str) -> bool:
+def checkValid(string: str) -> bool:
+
     is_valid = True
     has_number = False
     num_negatives, num_points, num_e = 0, 0, 0
 
     for char in string:
+
         if not (char.isdigit()):
             if char == "-":
                 if num_negatives >= 1:
+                    
                     if num_negatives == 1 and num_e == 1:
                         num_negatives += 1
                         continue
@@ -53,14 +56,14 @@ def check_valid_number_representation(string: str) -> bool:
 
 if __name__ == "__main__":
 
-    print(check_valid_number_representation("10"))
-    print(check_valid_number_representation("-10"))
-    print(check_valid_number_representation("10.1"))
-    print(check_valid_number_representation("-10.1"))
-    print(check_valid_number_representation("1e5"))
-    print(check_valid_number_representation("1e-5"))
-    print(check_valid_number_representation("-1.6 e -5.2"))
-    print(check_valid_number_representation("a"))
-    print(check_valid_number_representation("x 1"))
-    print(check_valid_number_representation("a -2"))
-    print(check_valid_number_representation("-"))
+    print(checkValid("10"))
+    print(checkValid("-10"))
+    print(checkValid("10.1"))
+    print(checkValid("-10.1"))
+    print(checkValid("1e5"))
+    print(checkValid("1e-5"))
+    print(checkValid("-1.6 e -5.2"))
+    print(checkValid("a"))
+    print(checkValid("x 1"))
+    print(checkValid("a -2"))
+    print(checkValid("-"))
