@@ -22,15 +22,20 @@ def checkValid(string: str) -> bool:
     for char in string:
 
         if not (char.isdigit()):
+
             if char == "-":
+                
                 if num_negatives >= 1:
-                    
+
                     if num_negatives == 1 and num_e == 1:
                         num_negatives += 1
                         continue
+
                     is_valid = False
                     break
+
                 num_negatives += 1
+
             elif char == ".":
                 if num_points >= 1:
                     if num_points == 1 and num_e == 1:
