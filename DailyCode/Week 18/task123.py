@@ -46,21 +46,27 @@ def checkValid(string: str) -> bool:
 
                     is_valid = False
                     break
-                
+
                 num_points += 1
 
             elif char == "e":
+
                 if num_e >= 1:
                     is_valid = False
                     break
+                
                 num_e += 1
+
             elif char == " ":
                 pass
+
             else:
                 is_valid = False
                 break
+
         else:
             has_number = True
+
     return is_valid and has_number
 
 
