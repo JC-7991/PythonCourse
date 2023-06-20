@@ -24,7 +24,7 @@ def checkValid(string: str) -> bool:
         if not (char.isdigit()):
 
             if char == "-":
-                
+
                 if num_negatives >= 1:
 
                     if num_negatives == 1 and num_e == 1:
@@ -37,13 +37,18 @@ def checkValid(string: str) -> bool:
                 num_negatives += 1
 
             elif char == ".":
+
                 if num_points >= 1:
+
                     if num_points == 1 and num_e == 1:
                         num_points += 1
                         continue
+
                     is_valid = False
                     break
+                
                 num_points += 1
+
             elif char == "e":
                 if num_e >= 1:
                     is_valid = False
