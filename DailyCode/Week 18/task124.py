@@ -5,3 +5,4 @@ expect to play before only one coin remains?
 Write a function that, given 'n', returns the number of rounds you'd expect to play
 until one coin remains.
 '''
+
