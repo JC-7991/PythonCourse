@@ -13,6 +13,7 @@ def expectation(n: int) -> int:
 
 
 if __name__ == "__main__":
+    
     print(expectation(0))
     print(expectation(1))
     print(expectation(2))
