@@ -11,4 +11,5 @@ Return the nodes 5 and 15.
 '''
 
 class Node:
-  pass
+  def __init__(self, data):
+    pass
