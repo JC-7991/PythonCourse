@@ -12,4 +12,4 @@ Return the nodes 5 and 15.
 
 class Node:
   def __init__(self, data):
-    pass
+    self.data = data
