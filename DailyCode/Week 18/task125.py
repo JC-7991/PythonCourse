@@ -9,3 +9,6 @@ For example, given the following tree and K of 20
      11    15
 Return the nodes 5 and 15.
 '''
+
+class Node:
+  pass
