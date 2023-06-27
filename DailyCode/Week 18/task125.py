@@ -18,4 +18,5 @@ class Node:
     self.right = None
 
   class BST:
-    pass
+    def __init__(self):
+      pass
