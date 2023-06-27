@@ -19,4 +19,4 @@ class Node:
 
   class BST:
     def __init__(self):
-      pass
+      self.root = None
