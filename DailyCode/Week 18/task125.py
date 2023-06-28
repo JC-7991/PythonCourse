@@ -26,3 +26,4 @@ class Node:
 
       if root is None:
         root = Node(data)
+        return root
