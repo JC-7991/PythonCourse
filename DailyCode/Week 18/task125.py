@@ -29,7 +29,7 @@ class BST:
       return root
     
     if data < root.data:
-      root.left = insert(root.left, data)
+      root.left = self.insert(root.left, data)
     elif data > root.data:
       root.right = self.insert(root.right, data)
     return root
