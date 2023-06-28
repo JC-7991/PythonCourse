@@ -23,4 +23,5 @@ class Node:
       self.root = None
 
     def insert(self, root, data):
-      pass
+      if root is None:
+        pass
