@@ -17,16 +17,16 @@ class Node:
     self.left = None
     self.right = None
 
-  class BST:
+class BST:
 
-    def __init__(self):
-      self.root = None
+  def __init__(self):
+    self.root = None
 
-    def insertR(self, root, data):
+  def insertR(self, root, data):
 
-      if root is None:
-        root = Node(data)
-        return root
-      
-      if data < root.data:
-        root.left = insertR(root.left, data)
+    if root is None:
+      root = Node(data)
+      return root
+    
+    if data < root.data:
+      root.left = insertR(root.left, data)
