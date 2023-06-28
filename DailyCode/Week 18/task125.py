@@ -22,11 +22,11 @@ class BST:
   def __init__(self):
     self.root = None
 
-  def insertR(self, root, data):
+  def insert(self, root, data):
 
     if root is None:
       root = Node(data)
       return root
     
     if data < root.data:
-      root.left = insertR(root.left, data)
+      root.left = insert(root.left, data)
