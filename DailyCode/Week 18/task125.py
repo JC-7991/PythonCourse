@@ -23,6 +23,6 @@ class Node:
       self.root = None
 
     def insert(self, root, data):
-      
+
       if root is None:
-        pass
+        root = Node(data)
