@@ -36,5 +36,5 @@ class BST:
       
     return root
   
-  def insert():
+  def insert(self, data):
     pass
