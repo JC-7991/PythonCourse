@@ -38,3 +38,6 @@ class BST:
   
   def insert(self, data):
     self.root = self.insertR(self.root, data)
+
+  def ispair():
+    pass
