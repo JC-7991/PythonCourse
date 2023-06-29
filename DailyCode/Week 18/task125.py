@@ -35,3 +35,6 @@ class BST:
       root.right = self.insertR(root.right, data)
       
     return root
+  
+  def insert():
+    pass
