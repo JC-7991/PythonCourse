@@ -37,4 +37,4 @@ class BST:
     return root
   
   def insert(self, data):
-    pass
+    self.root = self.insertR(self.root, data)
