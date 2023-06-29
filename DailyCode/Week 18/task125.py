@@ -22,16 +22,16 @@ class BST:
   def __init__(self):
     self.root = None
 
-  def insert(self, root, data):
+  def insertR(self, root, data):
 
     if root is None:
       root = Node(data)
       return root
     
     if data < root.data:
-      root.left = self.insert(root.left, data)
+      root.left = self.insertR(root.left, data)
 
     elif data > root.data:
-      root.right = self.insert(root.right, data)
+      root.right = self.insertR(root.right, data)
       
     return root
