@@ -40,4 +40,5 @@ class BST:
     self.root = self.insertR(self.root, data)
 
   def ispair(self, root, temp, target):
-    pass
+    if temp is None:
+      return False
