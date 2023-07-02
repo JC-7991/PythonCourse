@@ -44,6 +44,6 @@ class BST:
     if temp is None:
       return False
     
-    return self.search(root, temp, target - temp.data) or \ 
-      self.ispair(root, temp.left, target) or \
-      self.ispair(root, temp.right, target)
+    return self.search(root, temp, target - temp.data) or \
+            self.ispair(root, temp.left, target) or \
+            self.ispair(root, temp.right, target)
