@@ -44,4 +44,6 @@ class BST:
     if temp is None:
       return False
     
-    
+    return self.search(root, temp, target - temp.data) or \
+            self.isPairPresent(root, temp.left, target) or \
+            self.isPairPresent(root, temp.right, target)
