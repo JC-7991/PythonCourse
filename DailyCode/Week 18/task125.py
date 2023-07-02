@@ -47,3 +47,6 @@ class BST:
     return self.search(root, temp, target - temp.data) or \
             self.ispair(root, temp.left, target) or \
             self.ispair(root, temp.right, target)
+  
+  def search(self, root, temp, k):
+    pass
