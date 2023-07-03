@@ -49,10 +49,11 @@ class BST:
             self.ispair(root, temp.right, target)
   
   def search(self, root, temp, k):
+
     if root is None:
-            return False
+      return False
  
-        c = root
+    c = root
         flag = False
         while c is not None and flag == False:
             if c.data == k and temp != c:
