@@ -54,8 +54,9 @@ class BST:
       return False
  
     c = root
-        flag = False
-        while c is not None and flag == False:
+    flag = False
+    
+    while c is not None and flag == False:
             if c.data == k and temp != c:
                 flag = True
                 print("Pair Found: ", c.data, "+", temp.data)
