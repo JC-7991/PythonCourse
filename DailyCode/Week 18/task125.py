@@ -49,4 +49,18 @@ class BST:
             self.ispair(root, temp.right, target)
   
   def search(self, root, temp, k):
-    pass
+    if root is None:
+            return False
+ 
+        c = root
+        flag = False
+        while c is not None and flag == False:
+            if c.data == k and temp != c:
+                flag = True
+                print("Pair Found: ", c.data, "+", temp.data)
+                return True
+            elif k < c.data:
+                c = c.left
+            else:
+                c = c.right
+        return False
