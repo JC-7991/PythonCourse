@@ -62,9 +62,11 @@ class BST:
         flag = True
         print("Pair Found: ", c.data, "+", temp.data)
         return True
-            elif k < c.data:
-                c = c.left
-            else:
-                c = c.right
+            
+      elif k < c.data:
+        c = c.left
+      
+      else:
+        c = c.right
     
     return False
