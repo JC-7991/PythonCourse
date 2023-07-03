@@ -57,10 +57,11 @@ class BST:
     flag = False
     
     while c is not None and flag == False:
-            if c.data == k and temp != c:
-                flag = True
-                print("Pair Found: ", c.data, "+", temp.data)
-                return True
+            
+      if c.data == k and temp != c:
+        flag = True
+        print("Pair Found: ", c.data, "+", temp.data)
+        return True
             elif k < c.data:
                 c = c.left
             else:
