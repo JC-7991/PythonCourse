@@ -17,7 +17,7 @@ class Node:
     self.left = None
     self.right = None
 
-class BinarySearchTree:
+class BST:
 
   def __init__(self):
     self.root = None
@@ -73,7 +73,7 @@ class BinarySearchTree:
 
   if __name__ == "__main__":
 
-    bst = BinarySearchTree()
+    bst = BST()
     bst.insert(15)
     bst.insert(10)
     bst.insert(20)
