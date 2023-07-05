@@ -83,5 +83,6 @@ class BinarySearchTree:
     bst.insert(25)
  
     test = bst.ispair(bst.root, bst.root, 35)
+    
     if not test:
         print("No such values are found!")
