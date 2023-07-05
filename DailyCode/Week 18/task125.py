@@ -72,14 +72,9 @@ class BinarySearchTree:
     return False
 
   if __name__ == "__main__":
+
     bst = BinarySearchTree()
-    """
-                    15
-                /     \
-            10      20
-            / \     / \
-            8 12 16 25
-    """
+
     bst.insert(15)
     bst.insert(10)
     bst.insert(20)
