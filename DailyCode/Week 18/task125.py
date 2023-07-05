@@ -17,7 +17,7 @@ class Node:
     self.left = None
     self.right = None
 
-class BST:
+class BinarySearchTree:
 
   def __init__(self):
     self.root = None
@@ -72,4 +72,22 @@ class BST:
     return False
 
   if __name__ == "__main__":
-    pass
+    bst = BinarySearchTree()
+    """
+                    15
+                /     \
+            10      20
+            / \     / \
+            8 12 16 25
+    """
+    bst.insert(15)
+    bst.insert(10)
+    bst.insert(20)
+    bst.insert(8)
+    bst.insert(12)
+    bst.insert(16)
+    bst.insert(25)
+ 
+    test = bst.ispair(bst.root, bst.root, 35)
+    if not test:
+        print("No such values are found!")
