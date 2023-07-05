@@ -71,18 +71,18 @@ class BST:
     
     return False
 
-  if __name__ == "__main__":
+if __name__ == "__main__":
 
-    bst = BST()
-    bst.insert(15)
-    bst.insert(10)
-    bst.insert(20)
-    bst.insert(8)
-    bst.insert(12)
-    bst.insert(16)
-    bst.insert(25)
- 
-    test = bst.ispair(bst.root, bst.root, 35)
+  bst = BST()
+  bst.insert(15)
+  bst.insert(10)
+  bst.insert(20)
+  bst.insert(8)
+  bst.insert(12)
+  bst.insert(16)
+  bst.insert(25)
 
-    if not test:
-      print("No such values are found!")
+  test = bst.ispair(bst.root, bst.root, 35)
+
+  if not test:
+    print("No such values are found!")
