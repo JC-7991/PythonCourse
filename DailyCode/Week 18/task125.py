@@ -74,7 +74,6 @@ class BinarySearchTree:
   if __name__ == "__main__":
 
     bst = BinarySearchTree()
-
     bst.insert(15)
     bst.insert(10)
     bst.insert(20)
