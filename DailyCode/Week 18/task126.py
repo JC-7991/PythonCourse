@@ -6,5 +6,5 @@ the list. How many swap or move operations do you need?
 
 from typing import List
 
-def rotate(arr: List[int], length: int):
+def rotate(arr: List[int], length: int) -> None:
     pass
