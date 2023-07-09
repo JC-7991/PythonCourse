@@ -8,3 +8,4 @@ from typing import List
 
 def rotate(arr: List[int], length: int) -> None:
     first = arr[0]
+    for i in range(length - 1)
