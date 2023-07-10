@@ -24,4 +24,4 @@ class Deck:
         for suit in suits:
             for rank in ranks:
                 created_card = Card(suit, rank)
-                self.all_cards.append()
+                self.all_cards.append(created_card)
