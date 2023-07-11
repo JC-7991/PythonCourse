@@ -13,5 +13,5 @@ def rotate(arr: List[int], length: int) -> None:
         arr[i] = arr[i + 1]
     arr[length - 1] = first
 
-def rotate2()
+def rotate2():
     pass
