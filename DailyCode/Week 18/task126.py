@@ -20,3 +20,6 @@ def rotate(arr: list[int], k: int) -> List[int]:
     for _ in range(k):
         rotateOnce(arr, length)
     return arr
+
+if __name__ == "__main__":
+    pass
