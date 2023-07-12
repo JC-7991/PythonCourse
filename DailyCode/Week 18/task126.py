@@ -19,3 +19,4 @@ def rotate2(arr: list[int], k: int) -> List[int]:
     k = k % length
     for _ in range(k):
         rotate(arr, length)
+    return arr
