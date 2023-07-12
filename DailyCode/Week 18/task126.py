@@ -6,17 +6,17 @@ the list. How many swap or move operations do you need?
 
 from typing import List
 
-def rotate(arr: List[int], length: int) -> None:
+def rotateOnce(arr: List[int], length: int) -> None:
 
     first = arr[0]
     for i in range(length - 1):
         arr[i] = arr[i + 1]
     arr[length - 1] = first
 
-def rotate2(arr: list[int], k: int) -> List[int]:
+def rotate(arr: list[int], k: int) -> List[int]:
 
     length = len(arr)
     k = k % length
     for _ in range(k):
-        rotate(arr, length)
+        rotateOnce(arr, length)
     return arr
