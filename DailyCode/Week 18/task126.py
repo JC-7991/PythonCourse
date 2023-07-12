@@ -15,3 +15,4 @@ def rotate(arr: List[int], length: int) -> None:
 
 def rotate2(arr: list[int], k: int) -> List[int]:
     length = len(arr)
+    k = k % length
