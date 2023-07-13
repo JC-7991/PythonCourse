@@ -22,6 +22,7 @@ def rotate(arr: list[int], k: int) -> List[int]:
     return arr
 
 if __name__ == "__main__":
+    
     print(rotate([1, 2, 3, 4, 5, 6], 0))
     print(rotate([1, 2, 3, 4, 5, 6], 2))
     print(rotate([1, 2, 3, 4, 5, 6], 4))
