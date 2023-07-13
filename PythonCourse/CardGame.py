@@ -35,4 +35,5 @@ class Deck:
 class Player:
 
     def __init__(self, name):
-        pass
+        self.name = name
+        self.all_cards = []
