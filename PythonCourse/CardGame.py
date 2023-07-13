@@ -45,7 +45,7 @@ class Player:
 
         if type(new_cards) == type([]):
             self.all_cards.extend(new_cards)
-            
+
         else:
             self.all_cards.append(new_cards)
 
