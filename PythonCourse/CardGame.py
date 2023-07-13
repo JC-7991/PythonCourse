@@ -31,3 +31,8 @@ class Deck:
 
     def deal_one(self):
         return self.all_cards.pop()
+    
+class Player:
+
+    def __init__(self, name):
+        pass
