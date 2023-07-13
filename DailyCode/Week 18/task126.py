@@ -22,9 +22,9 @@ def rotate(arr: list[int], k: int) -> List[int]:
     return arr
 
 if __name__ == "__main__":
-    print(rotate_list([1, 2, 3, 4, 5, 6], 0))
-    print(rotate_list([1, 2, 3, 4, 5, 6], 2))
-    print(rotate_list([1, 2, 3, 4, 5, 6], 4))
+    print(rotate([1, 2, 3, 4, 5, 6], 0))
+    print(rotate([1, 2, 3, 4, 5, 6], 2))
+    print(rotate([1, 2, 3, 4, 5, 6], 4))
     print(rotate_list([1, 2, 3, 4, 5, 6], 6))
     print(rotate_list([1, 2, 3, 4, 5, 6], 10))
     print(rotate_list([1, 2, 3, 4, 5, 6], 1_000_000_000))
