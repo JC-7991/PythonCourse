@@ -45,4 +45,4 @@ class Player:
         pass
 
     def __str__(self):
-        return f'Player {self.name}'
+        return f'Player {self.name} has {len(self.all_cards)} cards.'
