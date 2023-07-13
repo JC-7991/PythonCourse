@@ -50,4 +50,4 @@ class Player:
             self.all_cards.append(new_cards)
 
     def __str__(self):
-        return f'Player {self.name} has {len(self.all_cards)} cards.'
+        return f'Player {self.name} has {len(self.all_cards)} card(s).'
