@@ -43,3 +43,6 @@ class Player:
 
     def add_cards(self, new_cards):
         pass
+
+    def __str__(self):
+        return f'Player {self.name}'
