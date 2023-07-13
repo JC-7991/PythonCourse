@@ -40,3 +40,6 @@ class Player:
 
     def remove_one(self):
         pass
+
+    def add_cards(self, new_cards):
+        pass
