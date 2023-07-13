@@ -42,7 +42,8 @@ class Player:
         return self.all_cards.pop()
 
     def add_cards(self, new_cards):
-        pass
+        if type(new_cards) == type([]):
+            self.all_cards.extend(new_cards)
 
     def __str__(self):
         return f'Player {self.name} has {len(self.all_cards)} cards.'
