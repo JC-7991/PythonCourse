@@ -39,7 +39,7 @@ class Player:
         self.all_cards = []
 
     def remove_one(self):
-        pass
+        return self.all_cards.pop()
 
     def add_cards(self, new_cards):
         pass
