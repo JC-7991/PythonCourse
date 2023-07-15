@@ -1,7 +1,6 @@
 '''
 Let's represent an integer in a linked list format by having each node represent a
 digit in the number. The nodes make up the number in reversed order.
-
 For example, the following linked list:
 
 1 -> 2 -> 3 -> 4 -> 5 is the number 54321.
