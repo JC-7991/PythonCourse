@@ -26,10 +26,10 @@ class Deck:
                 pass
 
     def shuffle(self):
-        random.shuffle(self.all_cards)
+        random.shuffle(self.deck)
 
     def deal_one(self):
-        return self.all_cards.pop()
+        pass
     
 class Player:
 
