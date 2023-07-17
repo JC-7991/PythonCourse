@@ -1,7 +1,6 @@
 '''
 All the disks start off on the first rod in a stack. They are ordered by size, with the
 largest disk on the bottom and the smallest one at the top.
-
 The goal of this puzzle is to move all the disks from the first rod to the last rod
 while following these rules:
 
