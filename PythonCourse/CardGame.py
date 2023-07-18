@@ -29,8 +29,8 @@ class Deck:
         deck_comp = ''
         for card in self.deck:
             deck_comp += '\n' + card.__str__()
-            
-        return "The deck has: "
+
+        return "The deck has: " + deck_comp
 
     def shuffle(self):
         random.shuffle(self.deck)
