@@ -25,7 +25,7 @@ class Deck:
                 self.deck.append(Card(suit, rank))
     
     def __str__(self):
-        pass
+        deck_comp = ''
 
     def shuffle(self):
         random.shuffle(self.deck)
