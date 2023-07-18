@@ -22,7 +22,7 @@ class Deck:
         self.deck = []
         for suit in suits:
             for rank in ranks:
-                pass
+                self.deck.append(Card(suit, rank))
     
     def __str__(self):
         pass
