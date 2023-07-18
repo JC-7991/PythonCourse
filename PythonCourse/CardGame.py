@@ -36,7 +36,7 @@ class Deck:
         random.shuffle(self.deck)
 
     def deal_one(self):
-        pass
+        single_card = self.deck.pop()
     
 class Player:
 
