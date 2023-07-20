@@ -22,5 +22,5 @@ Move 1 to 3
 
 from typing import Optional
 
-def towersOfHanoi():
+def towersOfHanoi() -> None:
     pass
