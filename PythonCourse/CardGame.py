@@ -41,8 +41,9 @@ class Deck:
     
 class Hand:
 
-        def __init__(self):
-            
+    def __init__(self):
+        self.cards = []
+
     
 '''
 class Player:
