@@ -39,6 +39,7 @@ class Deck:
         single_card = self.deck.pop()
         return single_card
     
+'''
 class Player:
 
     def __init__(self, name):
@@ -58,3 +59,5 @@ class Player:
 
     def __str__(self):
         return f'Player {self.name} has {len(self.all_cards)} card(s).'
+'''
+
