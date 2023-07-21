@@ -22,5 +22,10 @@ Move 1 to 3
 
 from typing import Optional
 
-def towersOfHanoi() -> None:
+def towersOfHanoi(
+    n: int,
+    start_rod: Optional[str] = None,
+    aux_rod: Optional[str] = None,
+    end_rod: Optional[str] = None,
+) -> None:
     pass
