@@ -31,6 +31,4 @@ def towersOfHanoi(
     
     if not start_rod:
         start_rod = "start_rod"
-        print(
-            f"\nTower of Hanoi for {n} Disks ========================================"
-        )
+        print(f"\nTower of Hanoi for {n} Disks ========================================")
