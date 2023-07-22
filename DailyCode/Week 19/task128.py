@@ -41,3 +41,4 @@ def towersOfHanoi(
 
     if n == 1:
         print(f"Move disk 1 from {start_rod} to {end_rod}.")
+        return
