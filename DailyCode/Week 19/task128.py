@@ -37,4 +37,4 @@ def towersOfHanoi(
         aux_rod = "aux_rod"
 
     if not end_rod:
-        
+        end_rod = "end_rod"
