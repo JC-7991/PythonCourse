@@ -32,3 +32,6 @@ def towersOfHanoi(
     if not start_rod:
         start_rod = "start_rod"
         print(f"\nTower of Hanoi for {n} Disks ========================================")
+
+    if not aux_rod:
+        aux_rod = "aux_rod"
