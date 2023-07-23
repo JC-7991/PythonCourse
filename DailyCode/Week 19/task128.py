@@ -43,3 +43,6 @@ def towersOfHanoi(
         print(f"Move disk 1 from {start_rod} to {end_rod}.")
         return
     
+    towers_of_hanoi(n - 1, start_rod, end_rod, aux_rod)
+    print(f"Move disk {n} from {start_rod} to {end_rod}")
+    towers_of_hanoi(n - 1, aux_rod, start_rod, end_rod)
