@@ -48,7 +48,7 @@ class Hand:
 
     def add_card(self, card):
         self.cards.append(card)
-        values[card.rank]
+        self.value += values[card.rank]
 
     def adjust_for_ace(self):
         pass
