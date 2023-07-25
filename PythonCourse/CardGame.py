@@ -94,4 +94,7 @@ def hit(deck, hand):
     hand.adjust_for_ace()
 
 def hit_or_stand():
-    pass
+    
+    global playing
+
+    
