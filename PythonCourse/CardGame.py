@@ -71,3 +71,6 @@ class Chips:
 
     def lose_bet(self):
         self.total -= self.bet
+
+    def take_bet(chips):
+        
