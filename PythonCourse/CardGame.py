@@ -87,3 +87,6 @@ class Chips:
                     print("You don't have enough chips! Current amount: {}".format(chips.total))
                 else:
                     break
+    
+    def hit(deck, hand):
+        pass
