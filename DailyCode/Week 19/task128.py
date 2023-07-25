@@ -48,7 +48,6 @@ def towersOfHanoi(
     towersOfHanoi(n - 1, aux_rod, start_rod, end_rod)
 
 if __name__ == "__main__":
-
     towersOfHanoi(3)
     towersOfHanoi(4)
     towersOfHanoi(5)
