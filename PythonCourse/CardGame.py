@@ -76,3 +76,5 @@ class Chips:
         while True:
             try:
                 chips.bet = int(input("How many chips would you like to bet? "))
+            except:
+                print("Please provide an integer.")
