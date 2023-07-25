@@ -83,3 +83,5 @@ class Chips:
                 print("Please provide an integer.")
             
             else:
+                if chips.bet > chips.total:
+                    print("You don't have enough chips! Current amount: {}".format(chips.total))
