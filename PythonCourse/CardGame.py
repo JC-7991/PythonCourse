@@ -73,4 +73,6 @@ class Chips:
         self.total -= self.bet
 
     def take_bet(chips):
-        
+        while True:
+            try:
+                chips.bet = int(input("How many chips would you like to bet? "))
