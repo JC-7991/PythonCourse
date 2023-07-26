@@ -116,3 +116,6 @@ def hit_or_stand(deck, hand):
 
 def show_some(player, dealer):
     pass
+
+def show_all(player, dealer):
+    pass
