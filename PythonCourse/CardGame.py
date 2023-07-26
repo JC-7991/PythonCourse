@@ -97,4 +97,5 @@ def hit_or_stand():
     
     global playing
 
-    
+    while True:
+        x = input("Hit or Stand? Enter h or s: ")
