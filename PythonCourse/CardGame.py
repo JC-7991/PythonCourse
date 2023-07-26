@@ -115,6 +115,7 @@ def hit_or_stand(deck, hand):
         break
 
 def show_some(player, dealer):
+    
     print("\n Dealer's Hand: ")
     print("First card hidden!")
     print(dealer.cards[1])
