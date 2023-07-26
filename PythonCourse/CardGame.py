@@ -103,3 +103,4 @@ def hit_or_stand(deck, hand):
             hit(deck, hand)
         elif x[0].lower() == 'h':
             print("Player Stands Dealer's Turn")
+            playing = False
