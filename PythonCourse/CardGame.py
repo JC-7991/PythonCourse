@@ -110,3 +110,5 @@ def hit_or_stand(deck, hand):
         
         else:
             print("Please enter h or s.")
+            continue
+        break
