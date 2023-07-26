@@ -101,3 +101,5 @@ def hit_or_stand(deck, hand):
         x = input("Hit or Stand? Enter h or s: ")
         if x[0].lower() == 's':
             hit(deck, hand)
+        elif x[0].lower() == 'h':
+            print("Player Stands Dealer's Turn")
