@@ -93,9 +93,11 @@ def hit(deck, hand):
     hand.add_card(single_card)
     hand.adjust_for_ace()
 
-def hit_or_stand():
+def hit_or_stand(deck, hand):
     
     global playing
 
     while True:
         x = input("Hit or Stand? Enter h or s: ")
+        if x[0].lower() == 's':
+            hit(deck, hand)
