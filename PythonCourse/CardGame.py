@@ -130,7 +130,7 @@ def show_all(player, dealer):
     for card in dealer.cards:
         print(card)
 
-    print("Value of Dealer's hand is: ")
+    print(f"Value of Dealer's hand is: {dealer.value}")
 
     print("\n Player's Hand: ")
     for card in player.cards:
