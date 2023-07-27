@@ -137,11 +137,12 @@ def show_all(player, dealer):
     print(f"Value of Player's hand is: {player.value}")
 
 def player_busts(player, dealer, chips):
-    print("BUST PLAYER")
+    print("BUST PLAYER!")
     chips.lose_bet()
 
 def player_wins(player, dealer, chips):
-    pass
+    print("PLAYER WINS!")
+    chips.win_bet()
 
 def dealer_busts(player, dealer, chips):
     pass
