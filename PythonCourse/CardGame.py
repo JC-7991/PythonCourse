@@ -136,17 +136,17 @@ def show_all(player, dealer):
         print(card)
     print(f"Value of Player's hand is: {player.value}")
 
-def player_busts():
+def player_busts(player, dealer, chips):
     pass
 
-def player_wins():
+def player_wins(player, dealer, chips):
     pass
 
-def dealer_busts():
+def dealer_busts(player, dealer, chips):
     pass
 
-def dealer_wins():
+def dealer_wins(player, dealer, chips):
     pass
 
-def push():
+def push(player, dealer):
     pass
