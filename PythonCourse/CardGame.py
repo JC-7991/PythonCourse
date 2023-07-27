@@ -141,3 +141,9 @@ def player_busts():
 
 def player_wins():
     pass
+
+def dealer_busts():
+    pass
+
+def dealer_wins():
+    pass
