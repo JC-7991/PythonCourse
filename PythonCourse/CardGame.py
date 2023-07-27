@@ -147,3 +147,6 @@ def dealer_busts():
 
 def dealer_wins():
     pass
+
+def push():
+    pass
