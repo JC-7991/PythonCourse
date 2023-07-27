@@ -126,6 +126,10 @@ def show_some(player, dealer):
 
 def show_all(player, dealer):
 
+    print("\n Dealer's Hand: ")
+    for card in dealer.cards:
+        print(card)
+
     print("\n Player's Hand: ")
     for card in player.cards:
         print(card)
