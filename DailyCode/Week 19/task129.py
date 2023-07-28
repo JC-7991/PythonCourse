@@ -4,5 +4,5 @@ Given a real number n, find the square root of n. For example, given n = 9, retu
 
 X = 10 ** (-6)
 
-def almostEqual():
+def almostEqual(num1: float, num2: float):
     pass
