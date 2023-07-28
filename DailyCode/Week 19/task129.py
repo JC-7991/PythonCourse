@@ -6,3 +6,6 @@ X = 10 ** (-6)
 
 def almostEqual(num1: float, num2: float):
     return num1 - X < num1 < num2 + X
+
+def getSquare():
+    pass
