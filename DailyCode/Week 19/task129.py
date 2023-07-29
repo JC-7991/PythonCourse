@@ -8,4 +8,5 @@ def almostEqual(num1: float, num2: float) -> bool:
     return num1 - X < num1 < num2 + X
 
 def getSquare(num: int) -> float:
+    
     high, low = num, 0
