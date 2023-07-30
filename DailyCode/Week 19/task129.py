@@ -26,4 +26,4 @@ def getSquare(num: int) -> float:
             high = mid - 1
 
 if __name__ == "__main__":
-    
+    print(getSquare(100))
