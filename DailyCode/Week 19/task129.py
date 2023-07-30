@@ -12,4 +12,4 @@ def getSquare(num: int) -> float:
     high, low = num, 0
 
     while True:
-        mid = (high + low) / 2
+        mid = ((high + low) / 2)
