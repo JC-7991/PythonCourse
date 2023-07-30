@@ -10,3 +10,6 @@ def almostEqual(num1: float, num2: float) -> bool:
 def getSquare(num: int) -> float:
     
     high, low = num, 0
+
+    while True:
+        pass
