@@ -21,3 +21,6 @@ def getSquare(num: int) -> float:
         
         elif mid_square < num:
             low = mid + 1
+
+        else:
+            high = mid - 1
