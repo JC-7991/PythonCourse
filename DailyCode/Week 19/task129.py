@@ -24,3 +24,6 @@ def getSquare(num: int) -> float:
 
         else:
             high = mid - 1
+
+if __name__ == "__main__":
+    
