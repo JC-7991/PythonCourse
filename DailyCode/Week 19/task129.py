@@ -14,3 +14,6 @@ def getSquare(num: int) -> float:
     while True:
         mid = ((high + low) / 2)
         mid_square = mid * mid
+
+        if almostEqual(mid_square, num):
+            return round(mid, 6)
