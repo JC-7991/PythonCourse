@@ -27,3 +27,4 @@ def getSquare(num: int) -> float:
 
 if __name__ == "__main__":
     print(getSquare(100))
+    print(getSquare(9))
