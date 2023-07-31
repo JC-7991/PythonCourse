@@ -160,3 +160,6 @@ while True:
     print("Welcome to Blackjack!")
     deck = Deck()
     deck.shuffle()
+
+    player_hand = Hand()
+    player_hand.add_card(deck.deal())
