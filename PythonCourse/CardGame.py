@@ -158,4 +158,5 @@ def push(player, dealer):
 while True:
 
     print("Welcome to Blackjack!")
-    
+    deck = Deck()
+    deck.shuffle()
