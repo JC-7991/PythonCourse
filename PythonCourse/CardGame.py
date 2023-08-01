@@ -185,4 +185,5 @@ while True:
             break
 
     if player_hand <= 21:
-        pass
+        while dealer_hand.value < 17:
+            hit(deck, dealer_hand)
