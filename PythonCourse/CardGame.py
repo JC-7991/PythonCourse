@@ -172,3 +172,4 @@ while True:
     dealer_hand.add_card(deck.deal())
 
     player_chips = Chips()
+    take_bet(player_chips)
