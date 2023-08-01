@@ -174,3 +174,6 @@ while True:
     player_chips = Chips()
     take_bet(player_chips)
     show_some(player_hand, dealer_hand)
+
+    while playing:
+        break
