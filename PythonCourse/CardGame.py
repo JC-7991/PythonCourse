@@ -185,5 +185,8 @@ while True:
             break
 
     if player_hand <= 21:
+
         while dealer_hand.value < 17:
             hit(deck, dealer_hand)
+            
+        show_all(player_hand, dealer_hand)
