@@ -180,4 +180,6 @@ while True:
         hit_or_stand(deck, player_hand)
         show_some(player_hand, dealer_hand)
 
-        break
+        if player_hand.value > 21:
+            player_busts(player_hand, dealer_hand, player_chips)
+            break
