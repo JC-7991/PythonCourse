@@ -193,3 +193,6 @@ while True:
 
         if dealer_hand.value > 21:
             dealer_busts(player_hand, dealer_hand, player_chips)
+
+        elif dealer_hand.value > player_hand.value:
+            pass
