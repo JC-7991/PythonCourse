@@ -176,4 +176,7 @@ while True:
     show_some(player_hand, dealer_hand)
 
     while playing:
+
+        hit_or_stand(deck, player_hand)
+
         break
