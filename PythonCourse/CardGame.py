@@ -204,4 +204,6 @@ while True:
     print('\n Player total chips are at: {}'.format(player_chips.total))
     new_game = input("Would you like to play another hand? y/n: ")
 
-    
+    if new_game[0].lower() == 'y':
+        playing == True
+        continue
