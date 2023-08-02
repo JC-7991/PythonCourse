@@ -197,3 +197,6 @@ while True:
 
         elif dealer_hand.value < player_hand.value:
             player_wins(player_hand, dealer_hand, player_chips)
+
+        else:
+            push(player_hand, dealer_hand)
