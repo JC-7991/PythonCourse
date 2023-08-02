@@ -35,7 +35,7 @@ class Deck:
     def shuffle(self):
         random.shuffle(self.deck)
 
-    def deal_one(self):
+    def deal(self):
         single_card = self.deck.pop()
         return single_card
     
