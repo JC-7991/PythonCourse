@@ -136,7 +136,7 @@ def show_all(player, dealer):
         print(card)
     print(f"Value of Player's hand is: {player.value}")
 
-def player_busts(player, dealer, chips):
+def player_busts(chips):
     print("BUST PLAYER!")
     chips.lose_bet()
 
