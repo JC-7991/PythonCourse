@@ -155,8 +155,6 @@ def dealer_wins(player, dealer, chips):
 def push(player, dealer):
     print("Dealer and Player tie! PUSH")
 
-
-
 while True:
 
     print("Welcome to Blackjack!")
