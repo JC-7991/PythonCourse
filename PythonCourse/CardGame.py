@@ -200,3 +200,5 @@ while True:
 
         else:
             push(player_hand, dealer_hand)
+
+    print('\n Player total chips are at: {}'.format(player_chips.total))
