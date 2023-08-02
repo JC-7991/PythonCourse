@@ -193,4 +193,4 @@ while True:
             dealer_busts(player_hand, dealer_hand, player_chips)
 
         elif dealer_hand.value > player_hand.value:
-            pass
+            dealer_wins(player_hand, dealer_hand, player_chips)
