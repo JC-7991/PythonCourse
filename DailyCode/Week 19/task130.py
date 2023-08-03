@@ -8,4 +8,5 @@ For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 
 from typing import List
 
-def maxProfitHelper()
+def maxProfitHelper():
+    pass
