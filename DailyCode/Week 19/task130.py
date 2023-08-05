@@ -14,6 +14,6 @@ def maxProfitHelper(
         curr_profit: int,
         buys_left: int,
         sells_left: int,
-        length: int,
+        length: int
 ):
     pass
