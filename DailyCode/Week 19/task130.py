@@ -18,4 +18,5 @@ def maxProfitHelper(
         length: int
 
 ) -> int:
-    pass
+    if curr_index == length or sells_left == 0:
+        return curr_profit
