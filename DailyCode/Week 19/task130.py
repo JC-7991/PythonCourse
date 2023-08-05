@@ -12,5 +12,8 @@ def maxProfitHelper(
         arr: List[int],
         curr_index: int,
         curr_profit: int,
+        buys_left: int,
+    sells_left: int,
+    length: int,
 ):
     pass
