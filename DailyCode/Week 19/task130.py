@@ -31,12 +31,7 @@ def maxProfitHelper(
             ),
 
             maxProfitHelper(
-                arr,
-                curr_index + 1,
-                curr_profit - arr[curr_index],
-                buys_left - 1,
-                sells_left,
-                length,
+                arr, curr_index + 1, curr_profit - arr[curr_index], buys_left - 1, sells_left, length
             )
-            
+
         )
