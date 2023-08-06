@@ -24,11 +24,9 @@ def maxProfitHelper(
     
     if buys_left == sells_left:
         return max(
-            # wait for a different deal
             maxProfitHelper(
                 arr, curr_index + 1, curr_profit, buys_left, sells_left, length
             ),
-            # buy at the current price
             maxProfitHelper(
                 arr,
                 curr_index + 1,
