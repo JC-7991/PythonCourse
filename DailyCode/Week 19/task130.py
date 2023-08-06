@@ -23,10 +23,13 @@ def maxProfitHelper(
         return curr_profit
     
     if buys_left == sells_left:
+
         return max(
+
             maxProfitHelper(
                 arr, curr_index + 1, curr_profit, buys_left, sells_left, length
             ),
+
             maxProfitHelper(
                 arr,
                 curr_index + 1,
@@ -34,5 +37,6 @@ def maxProfitHelper(
                 buys_left - 1,
                 sells_left,
                 length,
-            ),
+            )
+            
         )
