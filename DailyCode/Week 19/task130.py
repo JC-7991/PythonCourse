@@ -30,11 +30,11 @@ def maxProfitHelper(
         )
     
     return max(
-        # wait and hold for selling at a different price
+
         maxProfitHelper(
             arr, curr_index + 1, curr_profit, buys_left, sells_left, length,
         ),
-        # sell at the current price
+
         maxProfitHelper(
             arr,
             curr_index + 1,
