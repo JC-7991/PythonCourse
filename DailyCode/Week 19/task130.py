@@ -47,7 +47,7 @@ def maxProfitHelper(
     )
 
 def get_max_profit(arr: List[int], k: int) -> int:
-    return get_max_profit_helper(arr, 0, 0, k, k, len(arr))
+    return maxProfitHelper(arr, 0, 0, k, k, len(arr))
 
 if __name__ == "__main__":
     print(get_max_profit([5, 2, 4, 0, 1], 2))
