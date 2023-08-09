@@ -46,7 +46,7 @@ def maxProfitHelper(
         
     )
 
-def get_max_profit(arr: List[int], k: int) -> int:
+def getMax(arr: List[int], k: int) -> int:
     return maxProfitHelper(arr, 0, 0, k, k, len(arr))
 
 if __name__ == "__main__":
