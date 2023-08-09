@@ -22,10 +22,7 @@ def maxProfitHelper(arr: List[int], curr_index: int, curr_profit: int, buys_left
     
     return max(
 
-        maxProfitHelper(
-            arr, curr_index + 1, curr_profit, buys_left, sells_left, length,
-        ),
-
+        maxProfitHelper(arr, curr_index + 1, curr_profit, buys_left, sells_left, length,),
         maxProfitHelper(
             arr,
             curr_index + 1,
