@@ -46,3 +46,4 @@ def maxProfitHelper(
         
     )
 
+if __name__ == "__main__":
