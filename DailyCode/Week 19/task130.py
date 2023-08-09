@@ -50,6 +50,6 @@ def getMax(arr: List[int], k: int) -> int:
     return maxProfitHelper(arr, 0, 0, k, k, len(arr))
 
 if __name__ == "__main__":
-    print(get_max_profit([5, 2, 4, 0, 1], 2))
-    print(get_max_profit([5, 2, 4], 2))
-    print(get_max_profit([5, 2, 4], 1))
+    print(getMax([5, 2, 4, 0, 1], 2))
+    print(getMax([5, 2, 4], 2))
+    print(getMax([5, 2, 4], 1))
