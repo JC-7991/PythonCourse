@@ -1,6 +1,5 @@
 '''
 You have a large array with most of the elements as zero.
-
 Use a more space-efficient data structure, SparseArray, that implements the same
 interface:
 init(arr, size): initialize with the original large array and size.
