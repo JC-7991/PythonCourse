@@ -14,7 +14,10 @@ class SparseArray:
 
         self.arr = {}
         self.size = size
-        
+
         for index, val in enumerate(arr):
             if val != 0:
                 self.arr[index] = val
+
+    def __repr__(self) -> str:
+        pass
