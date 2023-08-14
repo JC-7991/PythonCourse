@@ -13,3 +13,5 @@ class SparseArray:
     def __init__(self, arr: List[int], size: int) -> None:
         self.arr = {}
         self.size = size
+        for index, val in enumerate(arr):
+            
