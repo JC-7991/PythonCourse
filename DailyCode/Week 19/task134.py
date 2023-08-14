@@ -11,4 +11,5 @@ from typing import List
 class SparseArray:
 
     def __init__(self, arr: List[int], size: int) -> None:
-        pass
+        self.arr = {}
+        self.size = size
