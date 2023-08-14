@@ -8,3 +8,7 @@ get(i): gets the value at index i.
 
 from typing import List
 
+class SparseArray:
+
+    def __init__(self, arr: List[int], size: int) -> None:
+        pass
