@@ -24,7 +24,9 @@ class SparseArray:
         string = ""
 
         for pos in range(self.size):
+
             if pos in self.arr:
                 string += f"{self.arr[pos]}, "
+                
             else:
                 string += "0, "
