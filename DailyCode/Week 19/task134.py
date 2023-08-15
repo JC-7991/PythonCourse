@@ -27,6 +27,8 @@ class SparseArray:
 
             if pos in self.arr:
                 string += f"{self.arr[pos]}, "
-                
+
             else:
                 string += "0, "
+
+        return "[" + string.rstrip(" ,") + "]"
