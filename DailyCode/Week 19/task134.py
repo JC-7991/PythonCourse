@@ -20,5 +20,7 @@ class SparseArray:
                 self.arr[index] = val
 
     def __repr__(self) -> str:
-        
+
         string = ""
+        for pos in range(self.size):
+            pass
