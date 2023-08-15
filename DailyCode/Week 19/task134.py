@@ -33,4 +33,5 @@ class SparseArray:
 
         return "[" + string.rstrip(" ,") + "]"
     
-    def set(self, pos: int, val: int)
+    def set(self, pos: int, val: int) -> int:
+        pass
