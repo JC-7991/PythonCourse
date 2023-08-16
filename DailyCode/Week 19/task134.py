@@ -41,3 +41,6 @@ class SparseArray:
         if val == 0:
             if pos in self.arr:
                 del self.arr[pos]
+
+        else:
+            self.arr[pos] = val
