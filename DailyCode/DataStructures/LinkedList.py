@@ -7,5 +7,6 @@ class Node:
         self.next = None
 
     def __repr__(self) -> str:
+        
         if self.next:
             pass
