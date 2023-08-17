@@ -6,4 +6,5 @@ class Node:
         self.val = val
         self.next = None
 
-    
+    def __repr__(self) -> None:
+        pass
