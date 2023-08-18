@@ -45,5 +45,5 @@ class SparseArray:
         else:
             self.arr[pos] = val
     
-    def get():
+    def get(self, pos: int):
         pass
