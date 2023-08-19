@@ -46,4 +46,6 @@ class SparseArray:
             self.arr[pos] = val
     
     def get(self, pos: int) -> int:
-        pass
+        
+        if pos > self.size:
+            raise IndexError
