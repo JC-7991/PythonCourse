@@ -9,4 +9,4 @@ class Node:
     def __repr__(self) -> str:
         
         if self.next:
-            pass
+            return f"{str(self.val)} => {str(self.next)}"
