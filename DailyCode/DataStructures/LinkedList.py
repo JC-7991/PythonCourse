@@ -12,3 +12,8 @@ class Node:
             return f"{str(self.val)} => {str(self.next)}"
         
         return str(self.val)
+    
+class LinkedList:
+
+    def __init__(self) -> None:
+        pass
