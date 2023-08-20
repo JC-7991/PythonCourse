@@ -10,3 +10,5 @@ class Node:
         
         if self.next:
             return f"{str(self.val)} => {str(self.next)}"
+        
+        return str(self.val)
