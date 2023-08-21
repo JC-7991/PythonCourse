@@ -18,3 +18,4 @@ class LinkedList:
     def __init__(self) -> None:
         self.head = None
         self.rear = None
+        self.length = 0
