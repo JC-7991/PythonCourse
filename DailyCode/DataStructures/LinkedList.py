@@ -16,4 +16,4 @@ class Node:
 class LinkedList:
 
     def __init__(self) -> None:
-        pass
+        self.head = None
