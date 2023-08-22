@@ -25,6 +25,8 @@ class LinkedList:
     
     def add(self, val: int = 0):
 
+        self.length += 1
+
         if self.head == None:
             self.head = Node(val)
             self.rear = self.head
