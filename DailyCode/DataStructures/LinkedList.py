@@ -31,3 +31,4 @@ class LinkedList:
         
         else:
             self.rear.next = Node(val)
+            self.rear = self.rear.next
