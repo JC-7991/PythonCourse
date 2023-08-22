@@ -36,4 +36,4 @@ class LinkedList:
             self.rear = self.rear.next
 
     def __iter__(self) -> Iterable:
-        pass
+        self.curr = self.head
