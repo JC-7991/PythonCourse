@@ -24,4 +24,5 @@ class LinkedList:
         return str(self.head)
     
     def add(self, val: int = 0):
-        
+        if self.head = None:
+            self.head = Node(val)
