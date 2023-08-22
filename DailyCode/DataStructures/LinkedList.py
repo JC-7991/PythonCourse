@@ -45,3 +45,6 @@ class LinkedList:
             value = self.curr.val
             self.curr = self.curr.next
             return value
+        
+        else:
+            raise StopIteration
