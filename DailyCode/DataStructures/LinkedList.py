@@ -22,3 +22,5 @@ class LinkedList:
 
     def __repr__(self) -> str:
         return str(self.head)
+    
+    
