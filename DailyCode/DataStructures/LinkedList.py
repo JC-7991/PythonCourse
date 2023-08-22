@@ -23,4 +23,5 @@ class LinkedList:
     def __repr__(self) -> str:
         return str(self.head)
     
-    
+    def add(self, val: int = 0):
+        
