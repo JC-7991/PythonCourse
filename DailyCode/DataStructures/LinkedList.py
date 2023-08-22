@@ -34,3 +34,6 @@ class LinkedList:
         else:
             self.rear.next = Node(val)
             self.rear = self.rear.next
+
+    def __iter__(self) -> Iterable:
+        pass
