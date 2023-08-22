@@ -40,4 +40,6 @@ class LinkedList:
         return self
     
     def __next__(self) -> int:
-        pass
+        
+        if self.curr:
+            value = self.curr.val
