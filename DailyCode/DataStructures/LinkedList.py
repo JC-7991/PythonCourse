@@ -20,5 +20,5 @@ class LinkedList:
         self.rear = None
         self.length = 0
 
-    def __repr__():
+    def __repr__(self) -> str:
         pass
