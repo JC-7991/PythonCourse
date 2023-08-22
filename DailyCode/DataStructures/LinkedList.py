@@ -21,4 +21,4 @@ class LinkedList:
         self.length = 0
 
     def __repr__(self) -> str:
-        return
+        return str(self.head)
