@@ -43,3 +43,4 @@ class LinkedList:
         
         if self.curr:
             value = self.curr.val
+            self.curr = self.curr.next
