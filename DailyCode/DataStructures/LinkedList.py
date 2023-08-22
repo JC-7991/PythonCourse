@@ -38,3 +38,6 @@ class LinkedList:
     def __iter__(self) -> Iterable:
         self.curr = self.head
         return self
+    
+    def __next__(self) -> int:
+        pass
