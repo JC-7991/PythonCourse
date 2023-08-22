@@ -30,4 +30,4 @@ class LinkedList:
             self.rear = self.head
         
         else:
-            pass
+            self.rear.next = Node(val)
