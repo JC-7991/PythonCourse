@@ -19,3 +19,6 @@ class LinkedList:
         self.head = None
         self.rear = None
         self.length = 0
+
+    def __repr__():
+        pass
