@@ -48,4 +48,3 @@ class LinkedList:
         
         else:
             raise StopIteration
-        
