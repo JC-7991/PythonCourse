@@ -52,3 +52,5 @@ class SparseArray:
         
         if pos in self.arr:
             return self.arr[pos]
+        
+        return 0
