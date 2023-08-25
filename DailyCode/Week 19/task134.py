@@ -51,4 +51,4 @@ class SparseArray:
             raise IndexError
         
         if pos in self.arr:
-            pass
+            return self.arr[pos]
