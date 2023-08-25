@@ -50,3 +50,5 @@ class SparseArray:
         if pos > self.size:
             raise IndexError
         
+        if pos in self.arr:
+            pass
