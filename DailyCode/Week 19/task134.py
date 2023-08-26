@@ -54,3 +54,6 @@ class SparseArray:
             return self.arr[pos]
         
         return 0
+    
+if __name__ == "__main__":
+    pass
