@@ -58,9 +58,7 @@ class SparseArray:
 if __name__ == "__main__":
 
     arr = SparseArray([1, 0, 0, 0, 3, 0, 2, 0], 8)
-
     print(arr)
-
     print(arr.get(0))
     print(arr.get(2))
     arr.set(2, 4)
