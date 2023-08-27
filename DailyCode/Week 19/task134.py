@@ -56,4 +56,18 @@ class SparseArray:
         return 0
     
 if __name__ == "__main__":
-    pass
+
+    arr = SparseArray([1, 0, 0, 0, 3, 0, 2, 0], 8)
+
+    print(arr)
+
+    print(arr.get(0))
+    print(arr.get(2))
+    arr.set(2, 4)
+    print(arr.get(2))
+    arr.set(4, 1)
+    print(arr.get(4))
+    arr.set(0, 0)
+    print(arr.get(0))
+
+    print(arr)
