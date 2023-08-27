@@ -65,5 +65,3 @@ if __name__ == "__main__":
     print(arr.get(2))
     arr.set(4, 1)
     print(arr.get(4))
-    arr.set(0, 0)
- 
