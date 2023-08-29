@@ -2,4 +2,6 @@ from __future__ import annotations
 from typing import Any, Optional, Union
 
 class Node:
-    pass
+    
+    def __init__():
+        pass
