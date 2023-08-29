@@ -7,3 +7,6 @@ class Node:
         self.val = val
         self.left = left
         self.right = right
+
+    def __eq__(self, other: Any) -> bool:
+        pass
