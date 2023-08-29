@@ -5,3 +5,4 @@ class Node:
     
     def __init__(self, val: int, left: Optional[Node] = None, right: Optional[Node] = None) -> None:
         self.val = val
+        self.left = left
