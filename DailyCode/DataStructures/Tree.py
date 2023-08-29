@@ -4,6 +4,6 @@ from typing import Any, Optional, Union
 class Node:
     
     def __init__(
-            self, val
+            self, val: int, left
     ):
         pass
