@@ -13,5 +13,5 @@ class Node:
             return self.left == other.left and self.right == other.right
         return False
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         pass
