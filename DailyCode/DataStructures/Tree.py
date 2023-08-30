@@ -15,3 +15,6 @@ class Node:
     
     def __repr__(self) -> str:
         return self.to_str()
+    
+    def height_helper(self) -> int:
+        pass
