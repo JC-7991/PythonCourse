@@ -12,3 +12,5 @@ class Node:
         if type(other) == Node and self.val == other.val:
             return self.left == other.left and self.right == other.right
         return False
+    
+    
