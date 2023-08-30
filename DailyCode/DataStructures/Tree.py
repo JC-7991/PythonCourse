@@ -10,3 +10,4 @@ class Node:
 
     def __eq__(self, other: Any) -> bool:
         if type(other) == Node and self.val == other.val:
+            return self.left
