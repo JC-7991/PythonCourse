@@ -9,4 +9,4 @@ class Node:
         self.right = right
 
     def __eq__(self, other: Any) -> bool:
-        if type(other)
+        if type(other) == Node
