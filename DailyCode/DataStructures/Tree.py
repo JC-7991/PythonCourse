@@ -14,4 +14,4 @@ class Node:
         return False
     
     def __repr__(self) -> str:
-        pass
+        return self.to_str()
