@@ -17,4 +17,5 @@ class Node:
         return self.to_str()
     
     def height_helper(self) -> int:
-        pass
+        if self.left is not None:
+            pass
