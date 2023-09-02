@@ -27,4 +27,4 @@ class Node:
         if self.right is not None:
             right_height = self.right.height_helper()
 
-        return max(left_height, right_height)
+        return max(left_height, right_height) + 1
