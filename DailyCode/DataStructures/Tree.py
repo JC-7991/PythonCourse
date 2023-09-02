@@ -21,4 +21,5 @@ class Node:
         if self.left is not None:
             left_height = self.left.height_helper()
 
-        
+        if self.right is not None:
+            right_height = self.right.height_helper()
