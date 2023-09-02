@@ -19,6 +19,7 @@ class Node:
     def height_helper(self) -> int:
 
         left_height = 0
+        right_height = 0
         
         if self.left is not None:
             left_height = self.left.height_helper()
