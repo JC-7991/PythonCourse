@@ -29,5 +29,5 @@ class Node:
 
         return max(left_height, right_height) + 1
     
-    def insert_helper():
+    def insert_helper(self, val: int):
         pass
