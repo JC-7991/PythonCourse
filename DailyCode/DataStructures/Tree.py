@@ -28,3 +28,4 @@ class Node:
             right_height = self.right.height_helper()
 
         return max(left_height, right_height) + 1
+    
