@@ -31,4 +31,3 @@ class Node:
     
     def insert_helper(self, val: int) -> None:
         pass
-    
