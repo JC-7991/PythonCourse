@@ -36,6 +36,7 @@ class Node:
                 self.left = Node(val)
             else:
                 self.left.insert_helper(val)
+                
         elif self.val < val:
             if self.right is None:
                 self.right = Node(val)
