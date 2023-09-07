@@ -51,3 +51,6 @@ class Node:
         
         left = 0
         right = 0
+
+        if self.left:
+            left = self.left.num_nodes_helper()
