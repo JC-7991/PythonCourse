@@ -32,12 +32,14 @@ class Node:
     def insert_helper(self, val: int) -> None:
         
         if self.val > val:
+
             if self.left is None:
                 self.left = Node(val)
             else:
                 self.left.insert_helper(val)
-                
+
         elif self.val < val:
+            
             if self.right is None:
                 self.right = Node(val)
             else:
