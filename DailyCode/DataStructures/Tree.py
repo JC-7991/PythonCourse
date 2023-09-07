@@ -59,3 +59,6 @@ class Node:
             right = self.right.num_nodes_helper()
 
         return left + right + 1
+    
+    def to_str(self) -> str:
+        pass
