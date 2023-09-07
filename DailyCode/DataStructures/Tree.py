@@ -46,3 +46,6 @@ class Node:
                 
             else:
                 self.right.insert_helper(val)
+
+    def num_nodes_helper(self) -> int:
+        pass
