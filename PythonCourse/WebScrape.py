@@ -1,1 +1,1 @@
-import requests
+import pip._vendor.requests
