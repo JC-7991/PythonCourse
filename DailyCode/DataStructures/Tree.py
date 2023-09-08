@@ -64,3 +64,4 @@ class Node:
         
         if self.right is None and self.left is None:
             return f"('{self.val}')"
+        elif self.left is not None and self.right is None:
