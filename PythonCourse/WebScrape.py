@@ -7,4 +7,4 @@ print(soup.select('.author'))
 
 authors = set()
 for name in soup.select('.author'):
-    pass
+    authors.add(name)
