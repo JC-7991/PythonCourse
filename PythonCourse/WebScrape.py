@@ -13,3 +13,4 @@ print(authors)
 quotes = []
 for quote in soup.select('.text'):
     quotes.append(quote.text)
+print(quotes)
