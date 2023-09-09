@@ -10,4 +10,5 @@ for name in soup.select(".author"):
     authors.add(name.text)
 print(authors)
 
+quotes = []
 soup.select('.text')
