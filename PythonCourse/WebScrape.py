@@ -11,4 +11,5 @@ for name in soup.select(".author"):
 print(authors)
 
 quotes = []
-soup.select('.text')
+for name in soup.select('.text'):
+    pass
