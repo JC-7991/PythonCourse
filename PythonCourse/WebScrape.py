@@ -3,8 +3,8 @@ import requests
 
 res = requests.get('https://quotes.toscrape.com')
 soup = bs4.BeautifulSoup(res.text, 'lxml')
-print(soup.select('.author'))
+soup.select('.author')
 
 authors = set()
-for name in soup.select('.author'):
-    authors.add(name)
+for name in soup.select(".author"):
+    print(authors.add(name.text))
