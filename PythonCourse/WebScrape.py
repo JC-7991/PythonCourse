@@ -8,5 +8,6 @@ soup.select('.author')
 authors = set()
 for name in soup.select(".author"):
     authors.add(name.text)
-
 print(authors)
+
+soup.select('.text')
