@@ -70,5 +70,6 @@ class Node:
         
         elif self.left is None and self.right is not None:
             return f"(null, '{self.val}', {self.right.to_str()})"
+        
         elif self.left is not None and self.right is not None:
             return f"({self.left.to_str()}, '{self.val}', {self.right.to_str()})"
