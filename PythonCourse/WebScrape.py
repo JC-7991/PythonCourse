@@ -15,6 +15,6 @@ for quote in soup.select('.text'):
     quotes.append(quote.text)
 print(quotes)
 
-#for item in soup.select('.tag-item'):
+#   for item in soup.select('.tag-item'):
 #    print(item.text)
 
