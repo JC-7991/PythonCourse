@@ -77,4 +77,4 @@ class Node:
 class BinaryTree:
     
     def __init__(self) -> None:
-        pass
+        self.root = None
