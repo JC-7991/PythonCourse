@@ -80,8 +80,6 @@ class BinaryTree:
         self.root = None
 
     def __eq__(self, other: Any) -> bool:
-
         if type(other) == BinaryTree:
             return self.root == other.root
-        
         return False
