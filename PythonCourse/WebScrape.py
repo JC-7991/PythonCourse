@@ -14,3 +14,5 @@ quotes = []
 for quote in soup.select('.text'):
     quotes.append(quote.text)
 print(quotes)
+
+url = 'https://quotes.scrape.com/page/'
