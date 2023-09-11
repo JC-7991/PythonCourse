@@ -17,3 +17,5 @@ print(quotes)
 
 url = 'https://quotes.scrape.com/page/'
 authors = set()
+for page in range(1, 10):
+    pass
