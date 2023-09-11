@@ -78,3 +78,6 @@ class BinaryTree:
     
     def __init__(self) -> None:
         self.root = None
+
+    def __eq__(self, other: Any) -> bool:
+        pass
