@@ -16,3 +16,4 @@ for quote in soup.select('.text'):
 print(quotes)
 
 url = 'https://quotes.scrape.com/page/'
+authors = set()
