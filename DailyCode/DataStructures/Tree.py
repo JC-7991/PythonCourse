@@ -80,4 +80,5 @@ class BinaryTree:
         self.root = None
 
     def __eq__(self, other: Any) -> bool:
-        pass
+        if type(other) == BinaryTree:
+            pass
