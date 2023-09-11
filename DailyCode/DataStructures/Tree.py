@@ -83,3 +83,5 @@ class BinaryTree:
         if type(other) == BinaryTree:
             return self.root == other.root
         return False
+    
+    
