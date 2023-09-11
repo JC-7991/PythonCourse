@@ -75,4 +75,6 @@ class Node:
             return f"({self.left.to_str()}, '{self.val}', {self.right.to_str()})"
         
 class BinaryTree:
-    pass
+    
+    def __init__(self):
+        pass
