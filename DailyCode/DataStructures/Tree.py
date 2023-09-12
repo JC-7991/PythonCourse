@@ -84,4 +84,5 @@ class BinaryTree:
             return self.root == other.root
         return False
     
-    
+    def __len__():
+        pass
