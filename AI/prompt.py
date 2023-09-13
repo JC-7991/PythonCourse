@@ -13,5 +13,5 @@ def decode(message):
 
     return message
 
-decoded_message = decode("message.txt")
+decoded_message = decode('message.txt')
 print(decoded_message)
