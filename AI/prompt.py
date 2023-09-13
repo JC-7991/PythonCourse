@@ -1,8 +1,8 @@
-def decode(message_file):
+def decode(message):
 
     sorted = []
 
-    with open(message_file, 'r') as file:
+    with open(message, 'r') as file:
         for line in file:
             number, word = line.split()
             sorted.append((int(number), word))
