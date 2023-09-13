@@ -13,5 +13,6 @@ def decode(message_file):
 
     return message
 
-decoded_message = decode('message.txt')
+file = open("message.txt")
+decoded_message = decode(file)
 print(decoded_message)
