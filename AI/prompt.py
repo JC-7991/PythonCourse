@@ -13,5 +13,5 @@ def decode(message):
 
     return message
 
-decoded_message = decode('D:\JC\Python Course\AI\message2.txt')
+decoded_message = decode('D:\JC\Python Course\AI\message.txt')
 print(decoded_message)
