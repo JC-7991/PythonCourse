@@ -88,5 +88,3 @@ class BinaryTree:
         if self.root:
             return self.root.num_nodes_helper()
         return 0
-    
-    
