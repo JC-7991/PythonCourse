@@ -90,4 +90,4 @@ class BinaryTree:
         return 0
     
     def __repr__(self) -> str:
-        pass
+        return str(self.root)
