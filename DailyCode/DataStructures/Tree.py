@@ -89,5 +89,5 @@ class BinaryTree:
             return self.root.num_nodes_helper()
         return 0
     
-    def repr():
+    def __repr__():
         pass
