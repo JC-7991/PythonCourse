@@ -93,7 +93,6 @@ class BinaryTree:
         return str(self.root)
     
     def find_height(self) -> int:
-        
         if self.root:
             return self.root.height_helper()
         return 0
