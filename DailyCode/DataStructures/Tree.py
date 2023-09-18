@@ -98,4 +98,12 @@ class BinaryTree:
         return 0
     
 class BinarySearchTree(BinaryTree):
-    pass
+def __init__(self) -> None:
+        BinaryTree.__init__(self)
+
+    def add(self, val: Union[int, str]) -> None:
+        # Add nodes to a Binary Search Tree
+        if self.root is None:
+            self.root = Node(val)
+        else:
+            self.root.insert_helper(val)
