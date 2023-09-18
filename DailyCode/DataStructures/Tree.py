@@ -98,7 +98,8 @@ class BinaryTree:
         return 0
     
 class BinarySearchTree(BinaryTree):
-def __init__(self) -> None:
+    
+    def __init__(self) -> None:
         BinaryTree.__init__(self)
 
     def add(self, val: Union[int, str]) -> None:
