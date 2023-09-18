@@ -96,3 +96,6 @@ class BinaryTree:
         if self.root:
             return self.root.height_helper()
         return 0
+    
+class BinarySearchTree(BinaryTree):
+    pass
