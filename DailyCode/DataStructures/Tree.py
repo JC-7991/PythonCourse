@@ -107,4 +107,3 @@ class BinarySearchTree(BinaryTree):
             self.root = Node(val)
         else:
             self.root.insert_helper(val)
-            
