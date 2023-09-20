@@ -11,5 +11,4 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 '''
 
 from typing import List, Tuple
-
 from DataStructures.Tree import BinaryTree, Node
