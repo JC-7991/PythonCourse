@@ -20,3 +20,4 @@ def min_path_sum_helper(node: Node) -> Tuple[int, List[int]]:
 
   if node.left:
     left_sum, left = min_path_sum_helper(node.left)
+  
