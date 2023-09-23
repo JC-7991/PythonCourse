@@ -17,3 +17,6 @@ def min_path_sum_helper(node: Node) -> Tuple[int, List[int]]:
   
   left_sum, left = None, None
   right_sum, right = None, None
+
+  if node.left:
+    pass
