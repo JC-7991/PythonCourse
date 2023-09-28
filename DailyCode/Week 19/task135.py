@@ -33,4 +33,3 @@ def min_path_sum_helper(node: Node) -> Tuple[int, List[int]]:
   elif right and not left:
     return (right_sum + node.val), right + [node.val]
   
-  
