@@ -37,6 +37,7 @@ def min_path_sum_helper(node: Node) -> Tuple[int, List[int]]:
 
 
 def minimum_path_sum(tree: BinaryTree) -> List[int]:
+    
     if not tree.root:
         raise ValueError("Empty Tree")
     _, path = min_path_sum_helper(tree.root)
