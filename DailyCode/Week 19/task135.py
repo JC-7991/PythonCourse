@@ -45,6 +45,7 @@ def minimum_path_sum(tree: BinaryTree) -> List[int]:
 
 
 if __name__ == "__main__":
+    
     tree = BinaryTree()
     tree.root = Node(10)
 
