@@ -33,3 +33,32 @@ def min_path_sum_helper(node: Node) -> Tuple[int, List[int]]:
   elif right and not left:
     return (right_sum + node.val), right + [node.val]
   
+  return min(
+        ((left_sum + node.val), left + [node.val]),
+        ((right_sum + node.val), right + [node.val]),
+        key=lambda x: x[0],
+    )
+
+
+def minimum_path_sum(tree: BinaryTree) -> List[int]:
+    if not tree.root:
+        raise ValueError("Empty Tree")
+    _, path = min_path_sum_helper(tree.root)
+    return path[::-1]
+
+
+if __name__ == "__main__":
+    tree = BinaryTree()
+    tree.root = Node(10)
+
+    tree.root.left = Node(5)
+    tree.root.right = Node(5)
+
+    tree.root.left.right = Node(2)
+
+    tree.root.right.right = Node(1)
+
+    tree.root.right.right.left = Node(-1)
+
+    print(tree)
+    print(minimum_path_sum(tree))
