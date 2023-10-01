@@ -11,4 +11,4 @@ Return 4.
 
 from typing import List
 
-Matrix = List[List]
+Matrix = List[List[int]]
