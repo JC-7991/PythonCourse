@@ -14,4 +14,5 @@ from typing import List
 Matrix = List[List[int]]
 
 def is_extendable():
+    
     pass
